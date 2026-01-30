@@ -19,8 +19,8 @@ export default function ExamplesPage() {
       fabric: "Crypton Performance Velvet",
       challenge: "High-traffic family space with pets and children",
       solution: "Stain-resistant luxury velvet that maintains elegance",
-      beforeImage: "/images/examples/family-room-before.jpg",
-      afterImage: "/images/examples/family-room-after.jpg",
+      beforeImage: "https://picsum.photos/400/300?random=1",
+      afterImage: "https://picsum.photos/400/300?random=2",
       results: ["100% stain resistance", "Maintains luxury appearance", "Easy daily maintenance"],
       featured: true
     },
@@ -31,8 +31,8 @@ export default function ExamplesPage() {
       fabric: "Belgian Natural Linen",
       challenge: "Dated formal living room needing fresh elegance",
       solution: "Natural linen in warm neutral with texture variation",
-      beforeImage: "/images/examples/linen-living-before.jpg", 
-      afterImage: "/images/examples/linen-living-after.jpg",
+      beforeImage: "https://picsum.photos/400/300?random=3", 
+      afterImage: "https://picsum.photos/400/300?random=4",
       results: ["Timeless elegance", "Natural texture depth", "Light and airy feeling"],
       featured: true
     },
@@ -43,8 +43,8 @@ export default function ExamplesPage() {
       fabric: "Cut Velvet with Metallic Accents",
       challenge: "Boring dining chairs lacking personality",
       solution: "Rich jewel-tone velvet with subtle metallic threading",
-      beforeImage: "/images/examples/velvet-dining-before.jpg",
-      afterImage: "/images/examples/velvet-dining-after.jpg", 
+      beforeImage: "https://picsum.photos/400/300?random=5",
+      afterImage: "https://picsum.photos/400/300?random=6", 
       results: ["Dramatic visual impact", "Sophisticated color depth", "Entertainment-ready elegance"],
       featured: true
     }

@@ -301,7 +301,7 @@ export default function BestPage() {
                 <div className="pt-8 lg:pt-0">
                   <img
                     className="aspect-[3/4] w-full max-w-lg rounded-2xl bg-gray-50 object-cover shadow-xl lg:max-w-none"
-                    src="/images/fabric-testing-laboratory.jpg"
+                    src="https://picsum.photos/500/400?random=40"
                     alt="Professional fabric testing laboratory showing quality control and performance evaluation"
                   />
                 </div>

@@ -267,7 +267,7 @@ export default function ComparePage() {
                 <div className="pt-8 lg:pt-0">
                   <img
                     className="aspect-[3/4] w-full max-w-lg rounded-2xl bg-gray-50 object-cover shadow-xl lg:max-w-none"
-                    src="/images/fabric-comparison-samples.jpg"
+                    src="https://picsum.photos/500/400?random=30"
                     alt="Fabric samples arranged for comparison showing different textures and qualities"
                   />
                 </div>

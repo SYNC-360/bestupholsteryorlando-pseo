@@ -14,7 +14,7 @@ export default function HomePage() {
       <main>
         {/* Hero Section */}
         <section className="relative overflow-hidden bg-gradient-to-br from-amber-50 via-white to-orange-50">
-          <div className="absolute inset-0 bg-[url('/images/fabric-texture.jpg')] bg-cover bg-center opacity-5"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-amber-100/20 to-orange-100/20"></div>
           <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-2 xl:grid-rows-1 xl:gap-x-8">
               <h1 className="max-w-2xl text-hero font-display font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
@@ -43,7 +43,7 @@ export default function HomePage() {
               <div className="mt-14 sm:mt-16 lg:mt-0 xl:row-span-2 xl:row-end-2">
                 <img
                   className="aspect-[4/5] w-full max-w-lg rounded-2xl bg-gray-50 object-cover shadow-2xl luxury-shadow lg:max-w-none"
-                  src="/images/hero-fabric-selection.jpg"
+                  src="https://picsum.photos/600/750?random=10"
                   alt="Luxury fabric swatches arranged beautifully showing the art of fabric selection"
                 />
               </div>
@@ -169,7 +169,7 @@ export default function HomePage() {
                 <div className="pt-8 lg:pt-0">
                   <img
                     className="aspect-[3/4] w-full max-w-lg rounded-2xl bg-gray-50 object-cover shadow-xl luxury-shadow lg:max-w-none"
-                    src="/images/fabric-process-elegant.jpg"
+                    src="https://picsum.photos/500/400?random=11"
                     alt="Elegant fabric selection process showing professional approach to upholstery planning"
                   />
                 </div>
@@ -239,7 +239,7 @@ export default function HomePage() {
                   <p>"Choosing our fabric first completely changed our upholstery experience. Instead of settling for what the upholsterer had available, we got exactly what we envisioned. The process was so much more professional."</p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4 text-base">
-                  <img className="h-10 w-10 rounded-full bg-gray-50" src="/images/testimonial-1.jpg" alt="Sarah Mitchell" />
+                  <img className="h-10 w-10 rounded-full bg-gray-50" src="https://picsum.photos/64/64?random=20" alt="Sarah Mitchell" />
                   <div>
                     <div className="font-semibold">Sarah Mitchell</div>
                     <div className="text-gray-600">Interior Designer, Atlanta</div>
@@ -251,7 +251,7 @@ export default function HomePage() {
                   <p>"The fabric-first approach saved us money and stress. We knew exactly what we wanted before meeting with upholsterers."</p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4 text-xs">
-                  <img className="h-10 w-10 rounded-full bg-gray-50" src="/images/testimonial-2.jpg" alt="David Chen" />
+                  <img className="h-10 w-10 rounded-full bg-gray-50" src="https://picsum.photos/64/64?random=21" alt="David Chen" />
                   <div>
                     <div className="font-semibold">David Chen</div>
                     <div className="text-gray-600">Charlotte, NC</div>
@@ -263,7 +263,7 @@ export default function HomePage() {
                   <p>"Professional upholsterers respect clients who understand fabric quality. The service level was completely different."</p>
                 </blockquote>
                 <figcaption className="mt-6 flex items-center gap-x-4 text-xs">
-                  <img className="h-10 w-10 rounded-full bg-gray-50" src="/images/testimonial-3.jpg" alt="Maria Rodriguez" />
+                  <img className="h-10 w-10 rounded-full bg-gray-50" src="https://picsum.photos/64/64?random=22" alt="Maria Rodriguez" />
                   <div>
                     <div className="font-semibold">Maria Rodriguez</div>
                     <div className="text-gray-600">Miami, FL</div>
