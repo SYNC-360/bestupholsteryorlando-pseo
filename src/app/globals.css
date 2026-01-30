@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Color scheme for fabric-first luxury aesthetic */
+    --background: 0 0% 100%;
+    --foreground: 224 71.4% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    --primary: 220.9 39.3% 11%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220.9 39.3% 11%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 224 71.4% 4.1%;
+    --radius: 0.75rem;
+    
+    /* Fabric-specific colors */
+    --fabric-cream: 43 28% 94%;
+    --fabric-linen: 40 23% 90%;
+    --fabric-sage: 140 23% 46%;
+    --fabric-navy: 220 39% 11%;
+    --fabric-charcoal: 216 19% 16%;
+    --fabric-gold: 45 93% 47%;
+  }
+
+  .dark {
+    --background: 224 71.4% 4.1%;
+    --foreground: 210 20% 98%;
+    --card: 224 71.4% 4.1%;
+    --card-foreground: 210 20% 98%;
+    --popover: 224 71.4% 4.1%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 210 20% 98%;
+    --primary-foreground: 220.9 39.3% 11%;
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+    --accent: 215 27.9% 16.9%;
+    --accent-foreground: 210 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 216 12.2% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer utilities {
+  /* Typography styles for luxury magazine aesthetic */
+  .font-heading {
+    font-family: var(--font-playfair);
+    font-weight: 400;
+    letter-spacing: -0.025em;
+  }
+  
+  .font-display {
+    font-family: var(--font-playfair);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+  
+  .font-body {
+    font-family: var(--font-inter);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  
+  .fabric-gradient {
+    background: linear-gradient(135deg, 
+      hsl(var(--fabric-cream)), 
+      hsl(var(--fabric-linen))
+    );
+  }
+  
+  .luxury-shadow {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 
+                0 10px 10px -5px rgb(0 0 0 / 0.04);
+  }
+  
+  .fabric-texture {
+    position: relative;
+  }
+  
+  .fabric-texture::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f7f5f3' fill-opacity='0.03'%3E%3Cpath d='M0 0h20v20H0z'/%3E%3C/g%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+  
+  /* Responsive text scaling */
+  .text-hero {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    line-height: 1.1;
+  }
+  
+  .text-section {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    line-height: 1.2;
+  }
+  
+  .text-large {
+    font-size: clamp(1.125rem, 2vw, 1.25rem);
+    line-height: 1.7;
+  }
+  
+  /* Animation classes */
+  .fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  .slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Content styling */
+  .prose-fabric {
+    @apply prose prose-lg max-w-none prose-gray;
+  }
+  
+  /* Interactive elements */
+  .button-primary {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium 
+           transition-colors focus-visible:outline-none focus-visible:ring-2 
+           disabled:pointer-events-none disabled:opacity-50 bg-gray-900 text-white 
+           hover:bg-gray-800 h-10 px-4 py-2;
+  }
+  
+  .button-secondary {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium 
+           transition-colors focus-visible:outline-none focus-visible:ring-2 
+           disabled:pointer-events-none disabled:opacity-50 border border-gray-300 
+           bg-white hover:bg-gray-50 h-10 px-4 py-2;
+  }
+}
+
+/* Fabric swatch hover effects */
+.fabric-swatch {
+  @apply transition-all duration-300 cursor-pointer;
+}
+
+.fabric-swatch:hover {
+  @apply scale-105 shadow-lg;
+}
+
+/* Magazine-style image overlays */
+.image-overlay {
+  @apply absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/30;
+}
+
+/* Responsive grid utilities */
+.grid-auto-fit {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.grid-auto-fill {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
