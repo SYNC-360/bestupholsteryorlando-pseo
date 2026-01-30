@@ -19,7 +19,7 @@ export default function LocationsPage() {
       region: "Florida Markets",
       insights: "Climate considerations for fade-resistant fabrics and humidity control",
       topFabrics: ["Performance Outdoor", "Fade-Resistant Linen", "Moisture-Wicking Synthetics"],
-      markets: ["Orlando", "Miami", "Tampa", "Jacksonville", "Tallahassee", "Gainesville"]
+      markets: ["Orlando", "Miami", "Tampa", "Jacksonville", "Fort Lauderdale", "St. Petersburg", "Sarasota", "Clearwater", "Tallahassee", "Gainesville"]
     },
     {
       region: "Georgia Markets", 

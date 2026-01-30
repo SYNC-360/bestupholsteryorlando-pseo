@@ -431,6 +431,249 @@ export const cityData: Record<string, CityData> = {
         result: "Beautiful coastal style that loves beach life"
       }
     ]
+  },
+
+  orlando: {
+    city: "Orlando",
+    state: "Florida",
+    climate: {
+      challenge: "Subtropical climate with hot, humid summers and year-round warmth",
+      impact: "High humidity and frequent rain require quick-dry, mold-resistant fabrics",
+      solutions: ["Performance outdoor fabrics", "Moisture-wicking synthetics", "Antimicrobial treatments"],
+      specialFocus: "From downtown sophistication to theme park family fun, choose fabrics that thrive in Orlando's dynamic entertainment capital environment."
+    },
+    architecture: {
+      styles: ["Modern High-rise", "Florida Ranch", "Mediterranean Revival", "Contemporary Family"],
+      considerations: "Tourism and family-focused living demands durable, easy-clean fabrics",
+      trends: "Balancing professional sophistication with family-friendly functionality"
+    },
+    lifestyle: {
+      pace: "Entertainment capital with family-centered living",
+      priorities: ["Family durability", "Entertainment-ready spaces", "Tourist-proof quality"],
+      preferences: "Fabrics that handle active family life and frequent entertaining"
+    },
+    neighborhoods: [
+      {
+        area: "Downtown Orlando",
+        style: "Urban Professional",
+        description: "High-rise living with city sophistication and entertainment access",
+        fabricChoices: ["Professional synthetics", "Urban-friendly performance", "Easy-clean luxury"],
+        approach: "City sophistication that handles Orlando's active lifestyle"
+      },
+      {
+        area: "Winter Park",
+        style: "Sophisticated Elegance",
+        description: "Historic charm with upscale museums, dining, and culture",
+        fabricChoices: ["Classic natural fibers", "Museum-quality textiles", "Traditional elegance"],
+        approach: "Refined fabrics that honor Winter Park's cultural sophistication"
+      },
+      {
+        area: "Dr. Phillips",
+        style: "Luxury Family",
+        description: "Upscale family neighborhoods near theme parks and dining",
+        fabricChoices: ["Luxury performance", "Family-friendly elegance", "Entertainment-ready"],
+        approach: "High-end materials built for active family entertaining"
+      },
+      {
+        area: "College Park",
+        style: "Historic Family",
+        description: "1920s charm with modern family updates and walkability",
+        fabricChoices: ["Period-appropriate updates", "Family-friendly classics", "Walkable lifestyle"],
+        approach: "Authentic historical style adapted for modern family living"
+      }
+    ],
+    successStories: [
+      {
+        name: "Theme Park Family Sarah T.",
+        location: "Dr. Phillips",
+        project: "Living room in kid-proof performance fabric",
+        result: "Luxury look that survives daily theme park adventures"
+      },
+      {
+        name: "Downtown Professional Mike L.",
+        location: "Downtown",
+        project: "Condo furniture in urban-friendly synthetics",
+        result: "City sophistication with Orlando practicality"
+      },
+      {
+        name: "Cultural Enthusiast Anne R.",
+        location: "Winter Park",
+        project: "Dining room in museum-quality textiles",
+        result: "Elegant entertaining space worthy of Winter Park's cultural scene"
+      }
+    ]
+  },
+
+  "fort-lauderdale": {
+    city: "Fort Lauderdale",
+    state: "Florida",
+    climate: {
+      challenge: "Tropical coastal climate with year-round heat, humidity, and salt air exposure",
+      impact: "Marine environment requires fade-resistant, salt-air resistant fabrics",
+      solutions: ["Marine-grade outdoor fabrics", "Salt-resistant treatments", "UV protective finishes"],
+      specialFocus: "From Las Olas sophistication to beachfront luxury, choose fabrics that capture Fort Lauderdale's yachting capital elegance."
+    },
+    architecture: {
+      styles: ["Coastal Contemporary", "Mediterranean Revival", "High-rise Luxury", "Yacht Club Classic"],
+      considerations: "Boating lifestyle and coastal location demand marine-grade durability",
+      trends: "Nautical sophistication with luxury coastal living"
+    },
+    lifestyle: {
+      pace: "Boating capital with international luxury lifestyle",
+      priorities: ["Marine durability", "Luxury entertaining", "International sophistication"],
+      preferences: "High-end materials that handle coastal luxury lifestyle"
+    },
+    neighborhoods: [
+      {
+        area: "Las Olas",
+        style: "Sophisticated Coastal",
+        description: "Upscale dining, shopping, and entertainment district",
+        fabricChoices: ["Luxury marine-grade", "Sophisticated coastal", "International elegance"],
+        approach: "World-class materials for Fort Lauderdale's premier lifestyle district"
+      },
+      {
+        area: "Victoria Park",
+        style: "Historic Luxury",
+        description: "Historic charm with modern luxury updates",
+        fabricChoices: ["Updated classics", "Luxury traditionals", "Historic sophistication"],
+        approach: "Timeless elegance adapted for coastal luxury living"
+      }
+    ],
+    successStories: [
+      {
+        name: "Yacht Owner Patricia M.",
+        location: "Las Olas",
+        project: "Waterfront condo in marine-grade luxury",
+        result: "Elegant coastal living that handles salt air perfectly"
+      },
+      {
+        name: "International Executive Carlos R.",
+        location: "Victoria Park",
+        project: "Historic home in updated luxury textiles",
+        result: "Sophisticated entertaining space for international clients"
+      }
+    ]
+  },
+
+  sarasota: {
+    city: "Sarasota",
+    state: "Florida",
+    climate: {
+      challenge: "Gulf Coast subtropical with artistic community sophistication",
+      impact: "Cultural lifestyle requires fabrics that balance coastal durability with artistic elegance",
+      solutions: ["Cultural-grade textiles", "Coastal performance", "Gallery-worthy materials"],
+      specialFocus: "From Ringling Museum elegance to Siesta Key beaches, choose fabrics that reflect Sarasota's unique blend of culture and coast."
+    },
+    architecture: {
+      styles: ["Cultural Contemporary", "Historic Preservation", "Gulf Coast Elegance", "Artist Colony"],
+      considerations: "Arts community values quality materials with cultural sophistication",
+      trends: "Artistic expression meets coastal luxury lifestyle"
+    },
+    lifestyle: {
+      pace: "Cultural capital with sophisticated coastal living",
+      priorities: ["Artistic sophistication", "Cultural entertaining", "Coastal durability"],
+      preferences: "Gallery-quality materials that handle Gulf Coast lifestyle"
+    },
+    neighborhoods: [
+      {
+        area: "Downtown Arts District",
+        style: "Cultural Sophistication",
+        description: "Museums, theaters, and galleries with urban sophistication",
+        fabricChoices: ["Gallery-quality textiles", "Cultural sophistication", "Artistic elegance"],
+        approach: "Museum-worthy materials for Sarasota's cultural heart"
+      },
+      {
+        area: "Siesta Key",
+        style: "Luxury Beach",
+        description: "World-famous beaches with luxury vacation lifestyle",
+        fabricChoices: ["Beach luxury", "Coastal performance", "Vacation elegance"],
+        approach: "High-end materials built for world-class beach living"
+      }
+    ],
+    successStories: [
+      {
+        name: "Gallery Owner Margaret S.",
+        location: "Arts District",
+        project: "Gallery reception area in cultural textiles",
+        result: "Sophisticated space worthy of Sarasota's art scene"
+      },
+      {
+        name: "Beach House Owner David K.",
+        location: "Siesta Key",
+        project: "Vacation home in luxury coastal fabrics",
+        result: "Elegant beach living that handles sand and salt"
+      }
+    ]
+  },
+
+  "st-petersburg": {
+    city: "St. Petersburg",
+    state: "Florida", 
+    climate: {
+      challenge: "Tampa Bay coastal with year-round outdoor lifestyle and humidity",
+      impact: "Waterfront living requires fabrics that handle bay breezes and marine environment",
+      solutions: ["Bay-resistant materials", "Outdoor performance", "Marine-grade luxury"],
+      specialFocus: "From downtown renaissance to waterfront luxury, choose fabrics that capture St. Pete's artistic rebirth and bay lifestyle."
+    },
+    architecture: {
+      styles: ["Waterfront Contemporary", "Historic Revival", "Urban Renaissance", "Bay District Modern"],
+      considerations: "Urban renewal and waterfront location create unique fabric needs",
+      trends: "Artistic renaissance meets sophisticated waterfront living"
+    },
+    lifestyle: {
+      pace: "Artistic renaissance with sophisticated bay lifestyle",
+      priorities: ["Waterfront durability", "Cultural sophistication", "Urban renewal energy"],
+      preferences: "High-quality materials reflecting St. Pete's cultural transformation"
+    },
+    successStories: [
+      {
+        name: "Waterfront Resident Lisa M.",
+        location: "Downtown",
+        project: "Bay-view condo in marine performance fabrics",
+        result: "Urban sophistication that handles Tampa Bay lifestyle"
+      },
+      {
+        name: "Arts Patron Robert K.",
+        location: "Central Arts District", 
+        project: "Historic home in cultural-grade textiles",
+        result: "Elegant entertaining space for St. Pete's art community"
+      }
+    ]
+  },
+
+  clearwater: {
+    city: "Clearwater",
+    state: "Florida",
+    climate: {
+      challenge: "Gulf Coast with world-famous beaches and year-round tourism",
+      impact: "Beach lifestyle requires fabrics that handle sand, salt, and constant entertaining",
+      solutions: ["Beach-proof performance", "Tourist-grade durability", "Coastal elegance"],
+      specialFocus: "From Clearwater Beach luxury to inland family neighborhoods, choose fabrics that thrive in this Gulf Coast paradise."
+    },
+    architecture: {
+      styles: ["Beach House Luxury", "Resort Contemporary", "Family Coastal", "Gulf Modern"],
+      considerations: "Tourism and beach lifestyle demand easy-clean, durable materials",
+      trends: "Relaxed luxury that handles constant beach life"
+    },
+    lifestyle: {
+      pace: "Beach paradise with family-friendly luxury",
+      priorities: ["Beach durability", "Family functionality", "Tourist-ready spaces"],
+      preferences: "Relaxed luxury fabrics that love beach lifestyle"
+    },
+    successStories: [
+      {
+        name: "Beach House Family Tony R.",
+        location: "Clearwater Beach",
+        project: "Vacation rental in tourist-proof fabrics",
+        result: "Beautiful beach style that handles constant guests"
+      },
+      {
+        name: "Family Home Jennifer M.",
+        location: "Safety Harbor",
+        project: "Family room in beach-friendly performance",
+        result: "Elegant family space that loves sandy feet"
+      }
+    ]
   }
 }
 

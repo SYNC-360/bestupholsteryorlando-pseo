@@ -72,16 +72,21 @@ export const SITE_CONFIG = {
 // Geographic Markets
 export const GEOGRAPHIC_MARKETS = {
   tier1: [
+    { city: 'Orlando', state: 'FL', population: 307573 },
     { city: 'Atlanta', state: 'GA', population: 498715 },
     { city: 'Miami', state: 'FL', population: 442241 },
     { city: 'Charlotte', state: 'NC', population: 874579 },
     { city: 'Nashville', state: 'TN', population: 689447 },
     { city: 'Jacksonville', state: 'FL', population: 949611 },
     { city: 'Tampa', state: 'FL', population: 384959 },
+    { city: 'Fort Lauderdale', state: 'FL', population: 182760 },
+    { city: 'St. Petersburg', state: 'FL', population: 258308 },
     { city: 'Raleigh', state: 'NC', population: 474069 },
     { city: 'Birmingham', state: 'AL', population: 200733 }
   ],
   tier2: [
+    { city: 'Sarasota', state: 'FL', population: 58285 },
+    { city: 'Clearwater', state: 'FL', population: 117292 },
     { city: 'Savannah', state: 'GA', population: 147780 },
     { city: 'Charleston', state: 'SC', population: 150227 },
     { city: 'New Orleans', state: 'LA', population: 383997 },
