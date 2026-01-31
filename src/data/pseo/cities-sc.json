@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Columbia",
+    "state": "South Carolina",
+    "stateCode": "SC",
+    "county": "Columbia County",
+    "population": 25000,
+    "coordinates": {
+      "lat": 32.316900000000004,
+      "lng": -79.3175
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_subtropical",
+      "name": "Humid Subtropical",
+      "description": "Hot, humid summers with mild winters",
+      "challenge": "High humidity and temperature variations require moisture-resistant materials",
+      "impact": "Fabrics must handle humidity, prevent mold, and resist fading from intense sun",
+      "solutions": [
+        "Performance synthetic blends",
+        "Moisture-wicking treatments",
+        "UV-resistant materials",
+        "Quick-dry outdoor fabrics"
+      ],
+      "seasonality": "moderate"
+    },
+    "demographics": {
+      "medianAge": 38,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.75,
+      "medianHomeValue": 195000,
+      "educationLevel": "high_school",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Tourism",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Southern Colonial",
+        "Craftsman",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "limited",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 289,
+    "nearbyMajorCity": "Charleston",
+    "lastUpdated": "2026-01-31T00:15:58.434Z"
+  }
+]

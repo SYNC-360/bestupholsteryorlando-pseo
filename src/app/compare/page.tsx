@@ -15,28 +15,28 @@ export default function ComparePage() {
     {
       title: "Performance Fabric vs Natural Linen",
       subtitle: "Modern durability vs classic elegance",
-      href: "/compare/performance-fabric-vs-natural-linen",
+      href: "/fabric-guide#performance-vs-natural",
       winner: "Depends on lifestyle",
       summary: "Performance fabrics win for families; natural linen wins for sophisticated, low-traffic spaces."
     },
     {
       title: "Velvet vs Chenille",
       subtitle: "Luxury texture showdown", 
-      href: "/compare/velvet-vs-chenille",
+      href: "/fabric-guide#velvet-vs-chenille",
       winner: "Velvet",
       summary: "Modern velvets offer superior durability and style versatility compared to traditional chenille."
     },
     {
       title: "Cotton vs Polyester Blends",
       subtitle: "Natural vs synthetic performance",
-      href: "/compare/cotton-vs-polyester-blends", 
+      href: "/fabric-guide#cotton-vs-blends", 
       winner: "Blends",
       summary: "Blends combine cotton's comfort with synthetic durability for best overall performance."
     },
     {
       title: "Leather vs Fabric",
       subtitle: "Classic luxury vs fabric flexibility",
-      href: "/compare/leather-vs-fabric",
+      href: "/fabric-guide#leather-vs-fabric",
       winner: "Tie",
       summary: "Leather wins for durability and style; fabric wins for comfort and color options."
     }
@@ -186,7 +186,7 @@ export default function ComparePage() {
                     {category.comparisons.map((comparison) => (
                       <Link
                         key={comparison}
-                        href={`/compare/${comparison.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'vs')}`}
+                        href={`/fabric-guide#${comparison.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'vs')}`}
                         className="block px-4 py-3 rounded-lg bg-gray-50 hover:bg-blue-50 transition-colors group"
                       >
                         <div className="flex items-center justify-between">

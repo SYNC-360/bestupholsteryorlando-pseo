@@ -1,0 +1,413 @@
+[
+  {
+    "name": "Columbus",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "county": "Columbus County",
+    "population": 905000,
+    "coordinates": {
+      "lat": 39.808800000000005,
+      "lng": -81.3849
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 75000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 240000,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Prairie",
+        "Tudor",
+        "Craftsman",
+        "Ranch"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 779,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Cleveland",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "county": "Cleveland County",
+    "population": 385000,
+    "coordinates": {
+      "lat": 40.488800000000005,
+      "lng": -84.86489999999999
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 75000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 240000,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Prairie",
+        "Tudor",
+        "Craftsman",
+        "Ranch"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 849,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Cincinnati",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "county": "Cincinnati County",
+    "population": 310000,
+    "coordinates": {
+      "lat": 39.628800000000005,
+      "lng": -83.1549
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 75000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 240000,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Prairie",
+        "Tudor",
+        "Craftsman",
+        "Ranch"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 773,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Toledo",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "county": "Toledo County",
+    "population": 270000,
+    "coordinates": {
+      "lat": 39.5388,
+      "lng": -84.7899
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 208000,
+      "educationLevel": "high_school",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Prairie",
+        "Tudor",
+        "Craftsman",
+        "Ranch"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 785,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Akron",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "county": "Akron County",
+    "population": 195000,
+    "coordinates": {
+      "lat": 40.458800000000004,
+      "lng": -81.9099
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 208000,
+      "educationLevel": "high_school",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Prairie",
+        "Tudor",
+        "Craftsman",
+        "Ranch"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 824,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Dayton",
+    "state": "Ohio",
+    "stateCode": "OH",
+    "county": "Dayton County",
+    "population": 140000,
+    "coordinates": {
+      "lat": 39.6188,
+      "lng": -84.6699
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 208000,
+      "educationLevel": "high_school",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Prairie",
+        "Tudor",
+        "Craftsman",
+        "Ranch"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 788,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  }
+]

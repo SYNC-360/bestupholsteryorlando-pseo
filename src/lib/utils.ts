@@ -43,11 +43,10 @@ export function generatePSEOUrl(pattern: string, ...params: string[]): string {
 }
 
 // Location URL generators
-export function generateLocationUrl(city: string, state: string, service?: string): string {
+export function generateLocationUrl(city: string, state: string): string {
   const citySlug = createSlug(city);
   const stateSlug = createSlug(state);
-  const serviceSlug = service ? createSlug(service) : 'upholstery';
-  return `/locations/${citySlug}-${stateSlug}/${serviceSlug}`;
+  return `/locations/${citySlug}-${stateSlug.toLowerCase()}`;
 }
 
 // Comparison URL generators  

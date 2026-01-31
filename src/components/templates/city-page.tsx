@@ -1,12 +1,28 @@
 import Link from "next/link"
+import Image from "next/image"
 import { ArrowRight, MapPin, Star, Thermometer, Home, Users, Calendar } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Header } from "@/components/sections/header"
 import { SITE_CONFIG } from "@/lib/constants"
 import type { CityData } from "@/types"
 
 interface CityPageProps {
   cityData: CityData
+}
+
+// Helper to determine climate zone for appropriate images
+function getClimateZone(state: string): 'humid-subtropical' | 'humid-continental' {
+  const subtropicalStates = ['FL', 'GA', 'AL', 'SC', 'NC', 'LA', 'TX'];
+  return subtropicalStates.includes(getStateAbbrev(state)) ? 'humid-subtropical' : 'humid-continental';
+}
+
+function getStateAbbrev(state: string): string {
+  const stateAbbrevs: Record<string, string> = {
+    'Florida': 'FL', 'Georgia': 'GA', 'Alabama': 'AL', 'South Carolina': 'SC', 
+    'North Carolina': 'NC', 'Louisiana': 'LA', 'Texas': 'TX',
+    'Virginia': 'VA', 'Tennessee': 'TN', 'Kentucky': 'KY', 'Ohio': 'OH',
+    'Pennsylvania': 'PA', 'New York': 'NY'
+  };
+  return stateAbbrevs[state] || 'FL';
 }
 
 export function CityPageTemplate({ cityData }: CityPageProps) {
@@ -22,13 +38,28 @@ export function CityPageTemplate({ cityData }: CityPageProps) {
     successStories
   } = cityData
 
+  const climateZone = getClimateZone(state);
+  const heroImagePath = `/images/climates/${climateZone}/hero-fallback.svg`;
+  const fabricSamplePath = `/images/fabric-details/${climateZone}/climate-fabric-sample.svg`;
+
   return (
-    <>
-      <Header />
-      <main>
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-orange-50 via-white to-red-50 py-24 sm:py-32">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <main>
+        {/* Hero Section with Climate-Appropriate Background Image */}
+        <section className="relative bg-gradient-to-br from-orange-50 via-white to-red-50 py-24 sm:py-32 overflow-hidden">
+          {/* Hero Background Image */}
+          <div className="absolute inset-0 z-0">
+            <div className="relative w-full h-full opacity-10">
+              <Image
+                src={heroImagePath}
+                alt={`${climateZone === 'humid-subtropical' ? 'Coastal climate' : 'Continental climate'} upholstery example for ${city}`}
+                fill
+                className="object-cover object-center"
+                priority
+              />
+            </div>
+          </div>
+          
+          <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <div className="mb-6">
                 <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-orange-100 text-orange-800">
@@ -37,22 +68,22 @@ export function CityPageTemplate({ cityData }: CityPageProps) {
                 </span>
               </div>
               <h1 className="text-hero font-display font-bold tracking-tight text-gray-900">
-                Fabric-First Upholstery in {city}
+                Interior Designer & MCM Specialist in {city}
               </h1>
               <p className="mt-6 text-large leading-8 text-gray-700">
-                Professional fabric selection for {city}'s unique climate and diverse architectural character. 
+                Mid-century modern furniture restoration, custom sofa reupholstery, and contemporary chair solutions for {city}. Specializing in performance fabric selection for {city}'s unique climate. 
                 {climate.specialFocus && ` ${climate.specialFocus}`}
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Button variant="luxury" size="xl" asChild>
                   <Link href={`${SITE_CONFIG.connectedSites.fabricStore}/samples?location=${city.toLowerCase()}`}>
-                    Order {city} Samples
+                    Custom Sofa & MCM Consultation
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button variant="outline" size="xl" asChild>
                   <Link href="#neighborhoods">
-                    Explore {city} Styles
+                    MCM & Contemporary Styles
                   </Link>
                 </Button>
               </div>
@@ -60,15 +91,80 @@ export function CityPageTemplate({ cityData }: CityPageProps) {
           </div>
         </section>
 
-        {/* City Overview */}
+        {/* MCM & Furniture Showcase */}
+        <section className="py-16 sm:py-20 bg-gradient-to-br from-amber-50 to-orange-50">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl text-center">
+              <h2 className="text-section font-display font-bold tracking-tight text-gray-900">
+                Mid-Century Modern & Contemporary Furniture in {city}
+              </h2>
+              <p className="mt-6 text-large leading-8 text-gray-600">
+                From authentic MCM restoration to contemporary sectional solutions, we specialize in furniture that defines {city} style.
+              </p>
+            </div>
+            
+            <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+              <div className="text-center">
+                <div className="mx-auto h-16 w-16 rounded-full bg-amber-200 flex items-center justify-center mb-4">
+                  <span className="text-2xl">🛋️</span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Custom Sofas</h3>
+                <p className="text-sm text-gray-600">Sectionals, loveseats, and contemporary seating solutions</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="mx-auto h-16 w-16 rounded-full bg-amber-200 flex items-center justify-center mb-4">
+                  <span className="text-2xl">🪑</span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">MCM Chairs</h3>
+                <p className="text-sm text-gray-600">Dining chairs, accent chairs, and lounge seating restoration</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="mx-auto h-16 w-16 rounded-full bg-amber-200 flex items-center justify-center mb-4">
+                  <span className="text-2xl">✨</span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">MCM Restoration</h3>
+                <p className="text-sm text-gray-600">Authentic mid-century modern furniture with modern performance</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="mx-auto h-16 w-16 rounded-full bg-amber-200 flex items-center justify-center mb-4">
+                  <span className="text-2xl">🎨</span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Contemporary Style</h3>
+                <p className="text-sm text-gray-600">Modern furniture with period-appropriate fabric choices</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* City Overview with Fabric Sample Image */}
         <section className="py-24 sm:py-32 bg-white">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-section font-display font-bold tracking-tight text-gray-900">
-                Why {city} Fabric Selection is Unique
+                Custom Furniture & Fabric Expertise for {city} 
               </h2>
               <p className="mt-6 text-large leading-8 text-gray-600">
-                {city}'s climate, architecture, and lifestyle create specific considerations for upholstery fabric selection.
+                As a mid-century modern specialist and interior designer in {city}, I understand how climate, architecture, and lifestyle create specific considerations for sofa reupholstery, contemporary chairs, and performance fabric selection.
+              </p>
+            </div>
+
+            {/* Featured Fabric Sample Image */}
+            <div className="mx-auto mt-12 max-w-2xl">
+              <div className="relative aspect-video rounded-2xl overflow-hidden bg-gray-100">
+                <Image
+                  src={fabricSamplePath}
+                  alt={`${climateZone === 'humid-subtropical' ? 'UV-resistant fabric samples' : 'Temperature-versatile fabric samples'} suitable for ${city} climate`}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <p className="mt-4 text-center text-sm text-gray-600">
+                {climateZone === 'humid-subtropical' 
+                  ? 'Solution-dyed fabrics resist UV damage in coastal climates'
+                  : 'Versatile fabric choices handle temperature variations'}
               </p>
             </div>
             
@@ -126,6 +222,131 @@ export function CityPageTemplate({ cityData }: CityPageProps) {
           </div>
         </section>
 
+        {/* Fabric Performance Gallery */}
+        <section className="py-24 sm:py-32 bg-gray-50">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl text-center">
+              <h2 className="text-section font-display font-bold tracking-tight text-gray-900">
+                Performance Fabrics for {city} Conditions
+              </h2>
+              <p className="mt-6 text-large leading-8 text-gray-600">
+                See how the right fabric choices handle {city}'s specific environmental challenges.
+              </p>
+            </div>
+            
+            <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:grid-rows-2">
+              {/* UV Protection */}
+              <div className="rounded-2xl bg-white p-6 shadow-sm">
+                <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-100 mb-4">
+                  <Image
+                    src="/images/fabric-details/uv-protection/close-up.svg"
+                    alt="UV-resistant fabric close-up showing solution-dyed fibers"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">UV Protection</h3>
+                <p className="text-sm text-gray-600">Solution-dyed fibers maintain color integrity under intense sun exposure.</p>
+              </div>
+
+              {/* Moisture Resistance */}
+              <div className="rounded-2xl bg-white p-6 shadow-sm">
+                <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-100 mb-4">
+                  <Image
+                    src="/images/fabric-details/moisture-resistance/close-up.svg"
+                    alt="Moisture-resistant fabric demonstrating water beading"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Moisture Resistance</h3>
+                <p className="text-sm text-gray-600">Advanced treatments prevent moisture absorption and mold growth.</p>
+              </div>
+
+              {/* Stain Resistance */}
+              <div className="rounded-2xl bg-white p-6 shadow-sm">
+                <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-100 mb-4">
+                  <Image
+                    src="/images/fabric-details/stain-resistance/demonstration.svg"
+                    alt="Stain-resistant fabric cleanup demonstration"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Easy Cleanup</h3>
+                <p className="text-sm text-gray-600">Spills wipe away easily without permanent staining or damage.</p>
+              </div>
+
+              {/* Durability */}
+              <div className="rounded-2xl bg-white p-6 shadow-sm">
+                <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-100 mb-4">
+                  <Image
+                    src="/images/fabric-details/durability/wear-test.svg"
+                    alt="High-performance fabric weave pattern for durability"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Long-Lasting</h3>
+                <p className="text-sm text-gray-600">Commercial-grade weaves resist wear from daily family use.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Transformation Gallery */}
+        <section className="py-24 sm:py-32 bg-white">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-2xl text-center">
+              <h2 className="text-section font-display font-bold tracking-tight text-gray-900">
+                {city} Upholstery Transformations
+              </h2>
+              <p className="mt-6 text-large leading-8 text-gray-600">
+                Real {city} homes transformed with climate-appropriate fabric selections.
+              </p>
+            </div>
+            
+            <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-12 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+              <div className="bg-gray-50 rounded-2xl p-8">
+                <div className="aspect-video relative rounded-lg overflow-hidden bg-gray-100 mb-6">
+                  <Image
+                    src="/images/transformations/living-room-before-after.svg"
+                    alt="Living room upholstery transformation with climate-appropriate fabric upgrade"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Living Room Climate Upgrade</h3>
+                <p className="text-gray-600 mb-4">Family room updated with UV-resistant fabrics that maintain their vibrant colors despite large south-facing windows.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-orange-100 text-orange-800 text-sm rounded-full">Solution-Dyed</span>
+                  <span className="px-3 py-1 bg-orange-100 text-orange-800 text-sm rounded-full">Fade-Resistant</span>
+                  <span className="px-3 py-1 bg-orange-100 text-orange-800 text-sm rounded-full">Family-Friendly</span>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-2xl p-8">
+                <div className="aspect-video relative rounded-lg overflow-hidden bg-gray-100 mb-6">
+                  <Image
+                    src="/images/transformations/dining-room-before-after.svg"
+                    alt="Dining room upholstery transformation with stain-resistant fabric upgrade"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Dining Room Stain Defense</h3>
+                <p className="text-gray-600 mb-4">Formal dining chairs reupholstered with high-performance fabrics that handle spills without permanent staining.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Stain-Resistant</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Easy-Clean</span>
+                  <span className="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Elegant</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Rest of template continues with original content... */}
         {/* Seasonal Fabric Guide */}
         {seasonalConsiderations && (
           <section className="py-24 sm:py-32 bg-gray-50">
@@ -264,10 +485,10 @@ export function CityPageTemplate({ cityData }: CityPageProps) {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-section font-display font-bold tracking-tight text-white">
-                Start Your {city} Fabric Journey
+                Custom Sofa & MCM Furniture Solutions in {city}
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-large leading-8 text-gray-300">
-                Experience the difference fabric-first selection makes with samples chosen specifically for {city} homes.
+                From mid-century modern restoration to contemporary sectional reupholstery, transform your {city} furniture with performance fabric expertise and authentic style knowledge.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <Button variant="luxury" size="xl" asChild>
@@ -286,17 +507,5 @@ export function CityPageTemplate({ cityData }: CityPageProps) {
           </div>
         </section>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="border-t border-gray-800 pt-8 text-center">
-            <p className="text-sm text-gray-400">
-              © 2024 {SITE_CONFIG.name}. {city} Fabric Selection Authority.
-            </p>
-          </div>
-        </div>
-      </footer>
-    </>
   )
 }

@@ -381,10 +381,10 @@ export class PSEODataLoader {
   /**
    * Generate static paths for Next.js
    */
-  generateStaticPaths(cities: PSEOCityData[]): Array<{ params: { location: string[] } }> {
+  generateStaticPaths(cities: PSEOCityData[]): Array<{ params: { location: string } }> {
     return cities.map(city => ({
       params: {
-        location: [city.name.toLowerCase().replace(/\s+/g, '-')]
+        location: city.name.toLowerCase().replace(/\s+/g, '-')
       }
     }));
   }

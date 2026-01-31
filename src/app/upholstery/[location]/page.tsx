@@ -1,31 +1,40 @@
 import { notFound } from 'next/navigation';
 import { CityPageTemplate } from '@/components/templates/city-page';
-import { CityDataGenerator } from '@/lib/pseo/city-generator';
 import { PSEODataLoader } from '@/lib/pseo/data-loader';
 import { getCityData } from '@/lib/city-data';
 import type { Metadata } from 'next';
 import { CityData } from '@/types';
 
-// Static params generation for existing cities
+// Static params generation - optimized for large datasets
 export async function generateStaticParams() {
   try {
-    // Load all PSEO cities for static generation
-    const dataLoader = new PSEODataLoader();
+    // Load from pre-generated PSEO data files
+    const fs = require('fs');
+    const path = require('path');
     
-    // Load from WordPress sitemap + expansion
-    const cities = await dataLoader.loadAllPSEOData({
-      sitemapUrl: 'https://bestupholsteryorlando.com/sitemap/sitemap.xml',
-      expansionRadius: 1000, // 1000 mile radius
-      maxCities: 10000 // Target 10,000 total cities
-    });
+    const staticPathsFile = path.join(process.cwd(), 'src/data/pseo/static-paths.json');
     
-    // Generate static paths
-    return dataLoader.generateStaticPaths(cities);
+    if (!fs.existsSync(staticPathsFile)) {
+      console.log('static-paths.json not found, using fallback method');
+      throw new Error('static-paths.json not found');
+    }
+    
+    const staticPathsData = JSON.parse(fs.readFileSync(staticPathsFile, 'utf8'));
+    
+    // In development, limit to 50 pages for faster builds
+    // In production, build all pages
+    const isProduction = process.env.NODE_ENV === 'production';
+    const maxPages = isProduction ? staticPathsData.length : 50;
+    const limitedPaths = staticPathsData.slice(0, maxPages);
+    
+    console.log(`✅ Loading ${limitedPaths.length}/${staticPathsData.length} static paths for /upholstery/[location] (${process.env.NODE_ENV})`);
+    
+    return limitedPaths;
     
   } catch (error) {
-    console.error('Error generating static params:', error);
+    console.error('Error loading static paths from local files:', error);
     
-    // Fallback to essential cities if loading fails
+    // Fallback to major cities only
     const fallbackCities = [
       'orlando', 'tampa', 'miami', 'jacksonville', 'atlanta', 'charlotte', 
       'nashville', 'sarasota', 'clearwater', 'st-petersburg', 'fort-lauderdale'
@@ -41,9 +50,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ 
   params 
 }: { 
-  params: { location: string } 
+  params: Promise<{ location: string }> 
 }): Promise<Metadata> {
-  const locationSlug = params.location;
+  const { location: locationSlug } = await params;
   
   try {
     // Try to get city data
@@ -57,19 +66,33 @@ export async function generateMetadata({
       };
     }
     
-    // Generate SEO metadata
-    const title = `Professional Upholstery Services in ${cityData.city}, ${getStateAbbrev(cityData.state)} | Best Upholstery Orlando`;
-    const description = `Expert upholstery and fabric selection services in ${cityData.city}, ${cityData.state}. ${cityData.climate.challenge} Free estimates and professional craftsmanship.`;
+    // Generate SEO metadata with interior design + MCM + furniture keywords
+    const title = `Interior Designer & MCM Specialist in ${cityData.city}, ${getStateAbbrev(cityData.state)} | Custom Sofa & Furniture`;
+    const description = `Interior designer specializing in mid-century modern furniture, custom sofa reupholstery, and contemporary chairs in ${cityData.city}, ${cityData.state}. ${cityData.climate.challenge} MCM restoration & performance fabric expertise.`;
     
     return {
       title,
       description,
       keywords: [
-        `upholstery ${cityData.city}`,
-        `furniture restoration ${cityData.city}`,
-        `fabric selection ${cityData.state}`,
+        `interior designer ${cityData.city}`,
+        `home decorator ${cityData.city}`,
+        `interior design services ${cityData.city}`,
+        `mid century modern ${cityData.city}`,
+        `mcm furniture ${cityData.city}`,
+        `sofa ${cityData.city}`,
+        `couch ${cityData.city}`,
+        `chairs ${cityData.city}`,
+        `sectional sofa ${cityData.city}`,
+        `accent chairs ${cityData.city}`,
+        `dining chairs ${cityData.city}`,
+        `custom sofa ${cityData.city}`,
+        `mid century modern sofa ${cityData.city}`,
+        `mcm chairs ${cityData.city}`,
+        `contemporary furniture ${cityData.city}`,
         `custom upholstery ${cityData.city}`,
-        'professional upholstery services'
+        `furniture restoration ${cityData.city}`,
+        'performance fabric furniture',
+        'mcm reupholstery'
       ],
       openGraph: {
         title,
@@ -93,19 +116,24 @@ export async function generateMetadata({
   }
 }
 
-// Main page component
+// Enable ISR for on-demand page generation
+export const dynamicParams = true;
+export const revalidate = 86400; // 24 hours
+
+// Main page component with ISR support
 export default async function LocationPage({ 
   params 
 }: { 
-  params: { location: string } 
+  params: Promise<{ location: string }> 
 }) {
-  const locationSlug = params.location;
+  const { location: locationSlug } = await params;
   
   try {
     // Try to get city data
     const cityData = await getCityDataBySlug(locationSlug);
     
     if (!cityData) {
+      console.log(`City data not found for: ${locationSlug}`);
       notFound();
     }
     
@@ -126,50 +154,62 @@ async function getCityDataBySlug(slug: string): Promise<CityData | null> {
       return curatedCityData;
     }
     
-    // If not found in curated data, generate programmatically
-    const dataLoader = new PSEODataLoader();
-    const cityGenerator = new CityDataGenerator();
+    // Load from city lookup index (fast and efficient)
+    const fs = require('fs');
+    const path = require('path');
     
-    // Load PSEO cities and find match
-    const cities = await dataLoader.loadAllPSEOData({
-      sitemapUrl: 'https://bestupholsteryorlando.com/sitemap/sitemap.xml',
-      expansionRadius: 1000,
-      maxCities: 10000
-    });
+    const lookupFile = path.join(process.cwd(), 'src/data/pseo/city-lookup.json');
     
-    const pseoCity = dataLoader.getCityBySlug(cities, slug);
-    
-    if (pseoCity) {
-      // Convert PSEO data to CityData format
-      return cityGenerator.generateCityData({
-        name: pseoCity.name,
-        state: pseoCity.state,
-        stateCode: pseoCity.stateCode,
-        county: pseoCity.county,
-        population: pseoCity.population,
-        coordinates: pseoCity.coordinates,
-        timezone: pseoCity.timezone
-      });
+    if (!fs.existsSync(lookupFile)) {
+      return null;
     }
     
-    // Last resort: try to generate from slug name
-    const cityName = slug
-      .split('-')
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(' ');
+    const cityLookup = JSON.parse(fs.readFileSync(lookupFile, 'utf8'));
+    const lookupCity = cityLookup[slug.toLowerCase()];
     
-    // Create basic city data and generate
-    const basicCityData = {
-      name: cityName,
-      state: 'Florida', // Default assumption for unknown cities
-      stateCode: 'FL',
-      county: `${cityName} County`,
-      population: 25000,
-      coordinates: { lat: 28.5, lng: -81.4 }, // Near Orlando
-      timezone: 'America/New_York'
-    };
+    if (lookupCity) {
+      
+      // Create a basic CityData object matching the expected interface
+      const basicCityData: CityData = {
+        city: lookupCity.name,
+        state: lookupCity.state,
+        
+        // Climate info based on state
+        climate: {
+          challenge: lookupCity.stateCode === 'FL' 
+            ? "High humidity and UV exposure require fade-resistant fabrics"
+            : "Temperature fluctuations require durable, versatile fabric choices",
+          impact: lookupCity.stateCode === 'FL'
+            ? "Coastal humidity can cause fabric fading and mold if not properly protected"
+            : "Variable temperatures require versatile fabric choices for year-round comfort",
+          solutions: [
+            "Solution-dyed acrylic fabrics",
+            "Performance outdoor textiles", 
+            "UV-resistant treatments",
+            "Moisture-wicking materials"
+          ],
+          specialFocus: "Climate-appropriate fabric selection for longevity"
+        },
+        
+        // Architecture
+        architecture: {
+          styles: ["Contemporary", "Modern", "Traditional"],
+          considerations: "Open floor plans and large windows are common, requiring fabrics that complement natural light",
+          trends: "Clean lines, natural textures, and neutral color palettes"
+        },
+        
+        // Lifestyle
+        lifestyle: {
+          pace: "Moderate",
+          priorities: ["Comfort", "Durability", "Style"],
+          preferences: "Casual elegance with practical considerations for daily living"
+        }
+      };
+      
+      return basicCityData;
+    }
     
-    return cityGenerator.generateCityData(basicCityData);
+    return null;
     
   } catch (error) {
     console.error('Error getting city data:', error);

@@ -1,0 +1,493 @@
+[
+  {
+    "name": "New York City",
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "New York City County",
+    "population": 8400000,
+    "coordinates": {
+      "lat": 43.0857,
+      "lng": -72.8181
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 33,
+      "medianIncome": 85000,
+      "homeOwnershipRate": 0.5,
+      "medianHomeValue": 382500,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Finance",
+        "Media",
+        "Real Estate"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": false,
+      "outdoorCulture": false,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 1112,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  },
+  {
+    "name": "Buffalo",
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "Buffalo County",
+    "population": 255000,
+    "coordinates": {
+      "lat": 42.1957,
+      "lng": -75.6531
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 70000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 315000,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Finance",
+        "Media",
+        "Real Estate"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 997,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  },
+  {
+    "name": "Rochester",
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "Rochester County",
+    "population": 205000,
+    "coordinates": {
+      "lat": 42.5957,
+      "lng": -76.5531
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 70000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 315000,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Finance",
+        "Media",
+        "Real Estate"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 1008,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  },
+  {
+    "name": "Yonkers",
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "Yonkers County",
+    "population": 200000,
+    "coordinates": {
+      "lat": 42.6357,
+      "lng": -74.9931
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 70000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 315000,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Finance",
+        "Media",
+        "Real Estate"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 1037,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  },
+  {
+    "name": "Syracuse",
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "Syracuse County",
+    "population": 145000,
+    "coordinates": {
+      "lat": 41.6357,
+      "lng": -73.4931
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 70000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 315000,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Finance",
+        "Media",
+        "Real Estate"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 1008,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  },
+  {
+    "name": "Albany",
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "Albany County",
+    "population": 97000,
+    "coordinates": {
+      "lat": 43.1854,
+      "lng": -72.64605
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 36,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.65,
+      "medianHomeValue": 292500,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Finance",
+        "Media",
+        "Real Estate"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "moderate"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 1122,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  },
+  {
+    "name": "New Rochelle",
+    "state": "New York",
+    "stateCode": "NY",
+    "county": "New Rochelle County",
+    "population": 79000,
+    "coordinates": {
+      "lat": 42.698100000000004,
+      "lng": -73.24199999999999
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 36,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.65,
+      "medianHomeValue": 292500,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Finance",
+        "Media",
+        "Real Estate"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "moderate"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 1079,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  }
+]

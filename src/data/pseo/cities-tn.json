@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Memphis",
+    "state": "Tennessee",
+    "stateCode": "TN",
+    "county": "Memphis County",
+    "population": 25000,
+    "coordinates": {
+      "lat": 36.1503,
+      "lng": -87.40105
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 38,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.75,
+      "medianHomeValue": 195000,
+      "educationLevel": "high_school",
+      "primaryIndustries": [
+        "Music Industry",
+        "Healthcare",
+        "Manufacturing"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Southern Colonial",
+        "Craftsman",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "limited",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 632,
+    "nearbyMajorCity": "Nashville",
+    "lastUpdated": "2026-01-31T00:15:58.425Z"
+  }
+]

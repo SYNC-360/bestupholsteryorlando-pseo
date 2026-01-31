@@ -2,18 +2,58 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, X, Phone, Mail } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { SITE_CONFIG } from "@/lib/constants"
 import { cn } from "@/lib/utils"
 
 const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Fabric Selection Guide", href: "/fabric-guide" },
-  { name: "Best Fabrics", href: "/best" },
-  { name: "Compare Fabrics", href: "/compare" },
-  { name: "Examples", href: "/examples" },
-  { name: "Locations", href: "/locations" },
+  { 
+    name: "Services", 
+    href: "/services",
+    dropdown: [
+      { name: "Upholstery Services", href: "/upholstery-services" },
+      { name: "Fabric Selection", href: "/fabric-selection" },
+      { name: "Custom Upholstery", href: "/custom-upholstery" },
+      { name: "Furniture Repair", href: "/furniture-repair" },
+      { name: "Marine Upholstery", href: "/marine-upholstery" },
+      { name: "Commercial Services", href: "/commercial-upholstery" },
+      { name: "Restoration", href: "/restoration-services" },
+    ]
+  },
+  { 
+    name: "Fabric Guide", 
+    href: "/fabric-guide",
+    dropdown: [
+      { name: "Fabric Selection Guide", href: "/fabric-guide" },
+      { name: "Fabric Care Guide", href: "/fabric-care-guide" },
+      { name: "Upholstery Guide", href: "/upholstery-guide" },
+      { name: "Compare Fabrics", href: "/compare" },
+      { name: "Examples", href: "/examples" },
+    ]
+  },
+  { 
+    name: "Tools", 
+    href: "/tools",
+    dropdown: [
+      { name: "Yardage Calculator", href: "/tools/yardage-calculator" },
+      { name: "Fabric Estimator", href: "/tools/fabric-estimator" },
+      { name: "Cost Calculator", href: "/tools/cost-calculator" },
+    ]
+  },
+  { 
+    name: "Locations", 
+    href: "/locations",
+    dropdown: [
+      { name: "Orlando", href: "/locations/orlando-fl" },
+      { name: "Tampa", href: "/locations/tampa-fl" },
+      { name: "Miami", href: "/locations/miami-fl" },
+      { name: "Jacksonville", href: "/locations/jacksonville-fl" },
+      { name: "All Service Areas", href: "/locations" },
+    ]
+  },
+  { name: "About", href: "/about" },
+  { name: "Contact", href: "/contact" },
 ]
 
 export function Header() {
@@ -22,26 +62,6 @@ export function Header() {
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50 backdrop-blur-md bg-white/95">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Top bar with contact info */}
-        <div className="hidden sm:flex items-center justify-end py-2 text-sm text-gray-600 border-b border-gray-50">
-          <div className="flex items-center space-x-6">
-            <a 
-              href={`tel:${SITE_CONFIG.phone}`}
-              className="flex items-center space-x-1 hover:text-amber-600 transition-colors"
-            >
-              <Phone className="h-3 w-3" />
-              <span>{SITE_CONFIG.phone}</span>
-            </a>
-            <a 
-              href={`mailto:${SITE_CONFIG.email}`}
-              className="flex items-center space-x-1 hover:text-amber-600 transition-colors"
-            >
-              <Mail className="h-3 w-3" />
-              <span>{SITE_CONFIG.email}</span>
-            </a>
-          </div>
-        </div>
-
         {/* Main navigation */}
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">

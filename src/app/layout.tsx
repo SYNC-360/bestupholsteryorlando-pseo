@@ -5,6 +5,8 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import './globals.css'
 import { SITE_CONFIG } from '@/lib/constants'
 import { generateLocalBusinessSchema } from '@/lib/utils'
+import { Header } from '@/components/sections/header'
+import { Footer } from '@/components/sections/footer'
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -102,7 +104,11 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased bg-white">
         <div className="min-h-screen flex flex-col">
-          {children}
+          <Header />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
         </div>
         <Analytics />
         <SpeedInsights />

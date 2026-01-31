@@ -1,0 +1,690 @@
+[
+  {
+    "name": "Houston",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "Houston County",
+    "population": 2300000,
+    "coordinates": {
+      "lat": 31.5745,
+      "lng": -97.5335
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 33,
+      "medianIncome": 78000,
+      "homeOwnershipRate": 0.5,
+      "medianHomeValue": 273000,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": false,
+      "outdoorCulture": true,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 988,
+    "lastUpdated": "2026-01-31T00:15:58.440Z"
+  },
+  {
+    "name": "San Antonio",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "San Antonio County",
+    "population": 1530000,
+    "coordinates": {
+      "lat": 30.5545,
+      "lng": -97.5635
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 33,
+      "medianIncome": 78000,
+      "homeOwnershipRate": 0.5,
+      "medianHomeValue": 273000,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": false,
+      "outdoorCulture": true,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 982,
+    "lastUpdated": "2026-01-31T00:15:58.440Z"
+  },
+  {
+    "name": "Dallas",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "Dallas County",
+    "population": 1340000,
+    "coordinates": {
+      "lat": 31.9845,
+      "lng": -95.41850000000001
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 33,
+      "medianIncome": 78000,
+      "homeOwnershipRate": 0.5,
+      "medianHomeValue": 273000,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": false,
+      "outdoorCulture": true,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 870,
+    "lastUpdated": "2026-01-31T00:15:58.440Z"
+  },
+  {
+    "name": "Austin",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "Austin County",
+    "population": 965000,
+    "coordinates": {
+      "lat": 30.334500000000002,
+      "lng": -99.3935
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 73000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 255500,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": true,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 1090,
+    "lastUpdated": "2026-01-31T00:15:58.440Z"
+  },
+  {
+    "name": "Fort Worth",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "Fort Worth County",
+    "population": 895000,
+    "coordinates": {
+      "lat": 31.8045,
+      "lng": -98.6885
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 73000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 255500,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": true,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 1057,
+    "lastUpdated": "2026-01-31T00:15:58.441Z"
+  },
+  {
+    "name": "El Paso",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "El Paso County",
+    "population": 681000,
+    "coordinates": {
+      "lat": 30.174500000000002,
+      "lng": -99.6335
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 73000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 255500,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": true,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 1104,
+    "lastUpdated": "2026-01-31T00:15:58.441Z"
+  },
+  {
+    "name": "Arlington",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "Arlington County",
+    "population": 395000,
+    "coordinates": {
+      "lat": 31.474500000000003,
+      "lng": -99.18350000000001
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 73000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 255500,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": true,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 1083,
+    "lastUpdated": "2026-01-31T00:15:58.441Z"
+  },
+  {
+    "name": "Corpus Christi",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "Corpus Christi County",
+    "population": 325000,
+    "coordinates": {
+      "lat": 31.994500000000002,
+      "lng": -96.90350000000001
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 73000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 255500,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": true,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 956,
+    "lastUpdated": "2026-01-31T00:15:58.441Z"
+  },
+  {
+    "name": "Plano",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "Plano County",
+    "population": 290000,
+    "coordinates": {
+      "lat": 31.1145,
+      "lng": -96.7235
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 63000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 220500,
+      "educationLevel": "high_school",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": true,
+      "culturalScene": "moderate",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 936,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  },
+  {
+    "name": "Lubbock",
+    "state": "Texas",
+    "stateCode": "TX",
+    "county": "Lubbock County",
+    "population": 260000,
+    "coordinates": {
+      "lat": 31.1145,
+      "lng": -98.2235
+    },
+    "timezone": "America/Chicago",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 63000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 220500,
+      "educationLevel": "high_school",
+      "primaryIndustries": [
+        "Energy",
+        "Technology",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Spanish Colonial",
+        "Adobe",
+        "Ranch",
+        "Contemporary"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "high"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": true,
+      "culturalScene": "moderate",
+      "entertainingStyle": "casual"
+    },
+    "distanceFromOrlando": 1024,
+    "lastUpdated": "2026-01-31T00:15:58.442Z"
+  }
+]

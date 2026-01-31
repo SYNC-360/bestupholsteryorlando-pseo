@@ -1,0 +1,5227 @@
+[
+  {
+    "params": {
+      "location": "zephyrhills-west"
+    }
+  },
+  {
+    "params": {
+      "location": "zephyrhills-south"
+    }
+  },
+  {
+    "params": {
+      "location": "zephyrhills"
+    }
+  },
+  {
+    "params": {
+      "location": "yulee"
+    }
+  },
+  {
+    "params": {
+      "location": "yukon"
+    }
+  },
+  {
+    "params": {
+      "location": "youngstown"
+    }
+  },
+  {
+    "params": {
+      "location": "york"
+    }
+  },
+  {
+    "params": {
+      "location": "wright"
+    }
+  },
+  {
+    "params": {
+      "location": "woodward"
+    }
+  },
+  {
+    "params": {
+      "location": "woods"
+    }
+  },
+  {
+    "params": {
+      "location": "woodmere"
+    }
+  },
+  {
+    "params": {
+      "location": "woodhaven"
+    }
+  },
+  {
+    "params": {
+      "location": "winter-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "winter-park"
+    }
+  },
+  {
+    "params": {
+      "location": "winter-haven"
+    }
+  },
+  {
+    "params": {
+      "location": "winston"
+    }
+  },
+  {
+    "params": {
+      "location": "winfield"
+    }
+  },
+  {
+    "params": {
+      "location": "wimauma"
+    }
+  },
+  {
+    "params": {
+      "location": "wilton-manors"
+    }
+  },
+  {
+    "params": {
+      "location": "wilson"
+    }
+  },
+  {
+    "params": {
+      "location": "willow-oak"
+    }
+  },
+  {
+    "params": {
+      "location": "williamsburg"
+    }
+  },
+  {
+    "params": {
+      "location": "wildwood"
+    }
+  },
+  {
+    "params": {
+      "location": "wildwood"
+    }
+  },
+  {
+    "params": {
+      "location": "wilcox"
+    }
+  },
+  {
+    "params": {
+      "location": "whiteville"
+    }
+  },
+  {
+    "params": {
+      "location": "whitehouse"
+    }
+  },
+  {
+    "params": {
+      "location": "white-pine"
+    }
+  },
+  {
+    "params": {
+      "location": "white-city"
+    }
+  },
+  {
+    "params": {
+      "location": "white-city"
+    }
+  },
+  {
+    "params": {
+      "location": "wetumpka"
+    }
+  },
+  {
+    "params": {
+      "location": "westwood-lakes"
+    }
+  },
+  {
+    "params": {
+      "location": "westwood"
+    }
+  },
+  {
+    "params": {
+      "location": "westwood"
+    }
+  },
+  {
+    "params": {
+      "location": "westwego"
+    }
+  },
+  {
+    "params": {
+      "location": "westview"
+    }
+  },
+  {
+    "params": {
+      "location": "weston"
+    }
+  },
+  {
+    "params": {
+      "location": "westminster"
+    }
+  },
+  {
+    "params": {
+      "location": "westgate"
+    }
+  },
+  {
+    "params": {
+      "location": "westchester"
+    }
+  },
+  {
+    "params": {
+      "location": "westchester"
+    }
+  },
+  {
+    "params": {
+      "location": "westchase"
+    }
+  },
+  {
+    "params": {
+      "location": "westbrook"
+    }
+  },
+  {
+    "params": {
+      "location": "west-view"
+    }
+  },
+  {
+    "params": {
+      "location": "west-vero-corridor"
+    }
+  },
+  {
+    "params": {
+      "location": "west-samoset"
+    }
+  },
+  {
+    "params": {
+      "location": "west-port"
+    }
+  },
+  {
+    "params": {
+      "location": "west-perrine"
+    }
+  },
+  {
+    "params": {
+      "location": "west-pensacola"
+    }
+  },
+  {
+    "params": {
+      "location": "west-park"
+    }
+  },
+  {
+    "params": {
+      "location": "west-park"
+    }
+  },
+  {
+    "params": {
+      "location": "west-park"
+    }
+  },
+  {
+    "params": {
+      "location": "west-palm-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "west-miami"
+    }
+  },
+  {
+    "params": {
+      "location": "west-melbourne"
+    }
+  },
+  {
+    "params": {
+      "location": "west-little-river"
+    }
+  },
+  {
+    "params": {
+      "location": "west-lake"
+    }
+  },
+  {
+    "params": {
+      "location": "west-hollywood"
+    }
+  },
+  {
+    "params": {
+      "location": "west-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "west-gate"
+    }
+  },
+  {
+    "params": {
+      "location": "west-gate"
+    }
+  },
+  {
+    "params": {
+      "location": "wells"
+    }
+  },
+  {
+    "params": {
+      "location": "wellington"
+    }
+  },
+  {
+    "params": {
+      "location": "wellington"
+    }
+  },
+  {
+    "params": {
+      "location": "welcome"
+    }
+  },
+  {
+    "params": {
+      "location": "wekiwa-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "wedgefield"
+    }
+  },
+  {
+    "params": {
+      "location": "weathersfield"
+    }
+  },
+  {
+    "params": {
+      "location": "waveland"
+    }
+  },
+  {
+    "params": {
+      "location": "wauchula"
+    }
+  },
+  {
+    "params": {
+      "location": "waterford"
+    }
+  },
+  {
+    "params": {
+      "location": "waterbury"
+    }
+  },
+  {
+    "params": {
+      "location": "warrington"
+    }
+  },
+  {
+    "params": {
+      "location": "warm-mineral-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "ward"
+    }
+  },
+  {
+    "params": {
+      "location": "walton"
+    }
+  },
+  {
+    "params": {
+      "location": "wakulla"
+    }
+  },
+  {
+    "params": {
+      "location": "wahneta"
+    }
+  },
+  {
+    "params": {
+      "location": "wadesboro"
+    }
+  },
+  {
+    "params": {
+      "location": "volusia"
+    }
+  },
+  {
+    "params": {
+      "location": "villas"
+    }
+  },
+  {
+    "params": {
+      "location": "vilas"
+    }
+  },
+  {
+    "params": {
+      "location": "viera-west"
+    }
+  },
+  {
+    "params": {
+      "location": "viera-east"
+    }
+  },
+  {
+    "params": {
+      "location": "victor"
+    }
+  },
+  {
+    "params": {
+      "location": "vero-beach-south"
+    }
+  },
+  {
+    "params": {
+      "location": "vero-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "venice-gardens"
+    }
+  },
+  {
+    "params": {
+      "location": "venice"
+    }
+  },
+  {
+    "params": {
+      "location": "valrico"
+    }
+  },
+  {
+    "params": {
+      "location": "valparaiso"
+    }
+  },
+  {
+    "params": {
+      "location": "upper-grand-lagoon"
+    }
+  },
+  {
+    "params": {
+      "location": "university-park"
+    }
+  },
+  {
+    "params": {
+      "location": "university-park"
+    }
+  },
+  {
+    "params": {
+      "location": "university-park"
+    }
+  },
+  {
+    "params": {
+      "location": "university-park"
+    }
+  },
+  {
+    "params": {
+      "location": "university"
+    }
+  },
+  {
+    "params": {
+      "location": "union-park"
+    }
+  },
+  {
+    "params": {
+      "location": "union"
+    }
+  },
+  {
+    "params": {
+      "location": "tyler"
+    }
+  },
+  {
+    "params": {
+      "location": "turtle-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "turner"
+    }
+  },
+  {
+    "params": {
+      "location": "turkey-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "trinity"
+    }
+  },
+  {
+    "params": {
+      "location": "treasure-island"
+    }
+  },
+  {
+    "params": {
+      "location": "townsend"
+    }
+  },
+  {
+    "params": {
+      "location": "titusville"
+    }
+  },
+  {
+    "params": {
+      "location": "timberlane"
+    }
+  },
+  {
+    "params": {
+      "location": "timber-pines"
+    }
+  },
+  {
+    "params": {
+      "location": "thousand-oaks"
+    }
+  },
+  {
+    "params": {
+      "location": "thonotosassa"
+    }
+  },
+  {
+    "params": {
+      "location": "thompson"
+    }
+  },
+  {
+    "params": {
+      "location": "the-woodlands"
+    }
+  },
+  {
+    "params": {
+      "location": "the-villages"
+    }
+  },
+  {
+    "params": {
+      "location": "the-crossings"
+    }
+  },
+  {
+    "params": {
+      "location": "the-acreage"
+    }
+  },
+  {
+    "params": {
+      "location": "terrytown"
+    }
+  },
+  {
+    "params": {
+      "location": "terrell"
+    }
+  },
+  {
+    "params": {
+      "location": "tequesta"
+    }
+  },
+  {
+    "params": {
+      "location": "temple-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "taylor"
+    }
+  },
+  {
+    "params": {
+      "location": "tavares"
+    }
+  },
+  {
+    "params": {
+      "location": "tarrytown"
+    }
+  },
+  {
+    "params": {
+      "location": "tampa"
+    }
+  },
+  {
+    "params": {
+      "location": "tamiami"
+    }
+  },
+  {
+    "params": {
+      "location": "tamarac"
+    }
+  },
+  {
+    "params": {
+      "location": "tallahassee"
+    }
+  },
+  {
+    "params": {
+      "location": "sylvania"
+    }
+  },
+  {
+    "params": {
+      "location": "sycamore"
+    }
+  },
+  {
+    "params": {
+      "location": "switzerland"
+    }
+  },
+  {
+    "params": {
+      "location": "sweetwater"
+    }
+  },
+  {
+    "params": {
+      "location": "sweetwater"
+    }
+  },
+  {
+    "params": {
+      "location": "sweetwater"
+    }
+  },
+  {
+    "params": {
+      "location": "sweetwater"
+    }
+  },
+  {
+    "params": {
+      "location": "sweetwater"
+    }
+  },
+  {
+    "params": {
+      "location": "suwannee"
+    }
+  },
+  {
+    "params": {
+      "location": "suwannee"
+    }
+  },
+  {
+    "params": {
+      "location": "surfside"
+    }
+  },
+  {
+    "params": {
+      "location": "sunset"
+    }
+  },
+  {
+    "params": {
+      "location": "sunset"
+    }
+  },
+  {
+    "params": {
+      "location": "sunrise"
+    }
+  },
+  {
+    "params": {
+      "location": "sunrise"
+    }
+  },
+  {
+    "params": {
+      "location": "sunrise"
+    }
+  },
+  {
+    "params": {
+      "location": "sunny-isles-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "sun-valley"
+    }
+  },
+  {
+    "params": {
+      "location": "sun-lakes"
+    }
+  },
+  {
+    "params": {
+      "location": "sun-city-center"
+    }
+  },
+  {
+    "params": {
+      "location": "sumner"
+    }
+  },
+  {
+    "params": {
+      "location": "sulphur-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "sugarmill-woods"
+    }
+  },
+  {
+    "params": {
+      "location": "sugarcreek"
+    }
+  },
+  {
+    "params": {
+      "location": "sugar-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "stuart"
+    }
+  },
+  {
+    "params": {
+      "location": "strathmore"
+    }
+  },
+  {
+    "params": {
+      "location": "stratford"
+    }
+  },
+  {
+    "params": {
+      "location": "stonegate"
+    }
+  },
+  {
+    "params": {
+      "location": "stillwater"
+    }
+  },
+  {
+    "params": {
+      "location": "stewart"
+    }
+  },
+  {
+    "params": {
+      "location": "sterling"
+    }
+  },
+  {
+    "params": {
+      "location": "starr"
+    }
+  },
+  {
+    "params": {
+      "location": "starke"
+    }
+  },
+  {
+    "params": {
+      "location": "stanton"
+    }
+  },
+  {
+    "params": {
+      "location": "springfield"
+    }
+  },
+  {
+    "params": {
+      "location": "springfield"
+    }
+  },
+  {
+    "params": {
+      "location": "spring-lake"
+    }
+  },
+  {
+    "params": {
+      "location": "southwest-ranches"
+    }
+  },
+  {
+    "params": {
+      "location": "southport"
+    }
+  },
+  {
+    "params": {
+      "location": "southgate"
+    }
+  },
+  {
+    "params": {
+      "location": "southern-pines"
+    }
+  },
+  {
+    "params": {
+      "location": "southeast-arcadia"
+    }
+  },
+  {
+    "params": {
+      "location": "southchase"
+    }
+  },
+  {
+    "params": {
+      "location": "south-venice"
+    }
+  },
+  {
+    "params": {
+      "location": "south-port"
+    }
+  },
+  {
+    "params": {
+      "location": "south-patrick-shores"
+    }
+  },
+  {
+    "params": {
+      "location": "south-pasadena"
+    }
+  },
+  {
+    "params": {
+      "location": "south-miami-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "south-miami"
+    }
+  },
+  {
+    "params": {
+      "location": "south-highpoint"
+    }
+  },
+  {
+    "params": {
+      "location": "south-gate-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "south-daytona"
+    }
+  },
+  {
+    "params": {
+      "location": "south-bradenton"
+    }
+  },
+  {
+    "params": {
+      "location": "south-bay"
+    }
+  },
+  {
+    "params": {
+      "location": "south-apopka"
+    }
+  },
+  {
+    "params": {
+      "location": "somerset"
+    }
+  },
+  {
+    "params": {
+      "location": "smith"
+    }
+  },
+  {
+    "params": {
+      "location": "sky-lake"
+    }
+  },
+  {
+    "params": {
+      "location": "silver-springs-shores"
+    }
+  },
+  {
+    "params": {
+      "location": "silver-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "silver-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "siesta-key"
+    }
+  },
+  {
+    "params": {
+      "location": "shorewood"
+    }
+  },
+  {
+    "params": {
+      "location": "shiloh"
+    }
+  },
+  {
+    "params": {
+      "location": "sherman"
+    }
+  },
+  {
+    "params": {
+      "location": "sheridan"
+    }
+  },
+  {
+    "params": {
+      "location": "shenandoah"
+    }
+  },
+  {
+    "params": {
+      "location": "shawnee"
+    }
+  },
+  {
+    "params": {
+      "location": "shawano"
+    }
+  },
+  {
+    "params": {
+      "location": "shady-hollow"
+    }
+  },
+  {
+    "params": {
+      "location": "shady-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "seneca"
+    }
+  },
+  {
+    "params": {
+      "location": "seneca"
+    }
+  },
+  {
+    "params": {
+      "location": "seminole"
+    }
+  },
+  {
+    "params": {
+      "location": "seminole"
+    }
+  },
+  {
+    "params": {
+      "location": "seffner"
+    }
+  },
+  {
+    "params": {
+      "location": "sebring"
+    }
+  },
+  {
+    "params": {
+      "location": "sebastian"
+    }
+  },
+  {
+    "params": {
+      "location": "scotland"
+    }
+  },
+  {
+    "params": {
+      "location": "schley"
+    }
+  },
+  {
+    "params": {
+      "location": "saybrook"
+    }
+  },
+  {
+    "params": {
+      "location": "saunders"
+    }
+  },
+  {
+    "params": {
+      "location": "satsuma"
+    }
+  },
+  {
+    "params": {
+      "location": "satellite-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "saratoga"
+    }
+  },
+  {
+    "params": {
+      "location": "sarasota-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "sarasota"
+    }
+  },
+  {
+    "params": {
+      "location": "santa-maria"
+    }
+  },
+  {
+    "params": {
+      "location": "santa-fe"
+    }
+  },
+  {
+    "params": {
+      "location": "santa-clara"
+    }
+  },
+  {
+    "params": {
+      "location": "sans-souci"
+    }
+  },
+  {
+    "params": {
+      "location": "sanibel"
+    }
+  },
+  {
+    "params": {
+      "location": "sanford"
+    }
+  },
+  {
+    "params": {
+      "location": "sanford"
+    }
+  },
+  {
+    "params": {
+      "location": "sandy"
+    }
+  },
+  {
+    "params": {
+      "location": "san-pablo"
+    }
+  },
+  {
+    "params": {
+      "location": "san-mateo"
+    }
+  },
+  {
+    "params": {
+      "location": "san-mateo"
+    }
+  },
+  {
+    "params": {
+      "location": "san-jose"
+    }
+  },
+  {
+    "params": {
+      "location": "san-carlos-park"
+    }
+  },
+  {
+    "params": {
+      "location": "san-antonio"
+    }
+  },
+  {
+    "params": {
+      "location": "sampson"
+    }
+  },
+  {
+    "params": {
+      "location": "sampson"
+    }
+  },
+  {
+    "params": {
+      "location": "salem"
+    }
+  },
+  {
+    "params": {
+      "location": "safety-harbor"
+    }
+  },
+  {
+    "params": {
+      "location": "rye"
+    }
+  },
+  {
+    "params": {
+      "location": "rutland"
+    }
+  },
+  {
+    "params": {
+      "location": "russell"
+    }
+  },
+  {
+    "params": {
+      "location": "ruskin"
+    }
+  },
+  {
+    "params": {
+      "location": "royal-palm-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "roy"
+    }
+  },
+  {
+    "params": {
+      "location": "rotonda"
+    }
+  },
+  {
+    "params": {
+      "location": "roslyn-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "rose"
+    }
+  },
+  {
+    "params": {
+      "location": "rose"
+    }
+  },
+  {
+    "params": {
+      "location": "rolling-meadows"
+    }
+  },
+  {
+    "params": {
+      "location": "rolling-meadows"
+    }
+  },
+  {
+    "params": {
+      "location": "rocky-point"
+    }
+  },
+  {
+    "params": {
+      "location": "rocksprings"
+    }
+  },
+  {
+    "params": {
+      "location": "rockledge"
+    }
+  },
+  {
+    "params": {
+      "location": "rockdale"
+    }
+  },
+  {
+    "params": {
+      "location": "rock-island"
+    }
+  },
+  {
+    "params": {
+      "location": "rock-island"
+    }
+  },
+  {
+    "params": {
+      "location": "rock"
+    }
+  },
+  {
+    "params": {
+      "location": "rochelle"
+    }
+  },
+  {
+    "params": {
+      "location": "roberts"
+    }
+  },
+  {
+    "params": {
+      "location": "roanoke"
+    }
+  },
+  {
+    "params": {
+      "location": "riviera"
+    }
+  },
+  {
+    "params": {
+      "location": "riverview"
+    }
+  },
+  {
+    "params": {
+      "location": "riverview"
+    }
+  },
+  {
+    "params": {
+      "location": "riverview"
+    }
+  },
+  {
+    "params": {
+      "location": "riverside"
+    }
+  },
+  {
+    "params": {
+      "location": "riverside"
+    }
+  },
+  {
+    "params": {
+      "location": "riverside"
+    }
+  },
+  {
+    "params": {
+      "location": "riveredge"
+    }
+  },
+  {
+    "params": {
+      "location": "river-park"
+    }
+  },
+  {
+    "params": {
+      "location": "river-oaks"
+    }
+  },
+  {
+    "params": {
+      "location": "river-forest"
+    }
+  },
+  {
+    "params": {
+      "location": "rio-vista"
+    }
+  },
+  {
+    "params": {
+      "location": "ridgewood"
+    }
+  },
+  {
+    "params": {
+      "location": "ridgewood"
+    }
+  },
+  {
+    "params": {
+      "location": "richmond-west"
+    }
+  },
+  {
+    "params": {
+      "location": "richmond-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "richland"
+    }
+  },
+  {
+    "params": {
+      "location": "redland"
+    }
+  },
+  {
+    "params": {
+      "location": "ray"
+    }
+  },
+  {
+    "params": {
+      "location": "rainbow-lakes-estates"
+    }
+  },
+  {
+    "params": {
+      "location": "quincy"
+    }
+  },
+  {
+    "params": {
+      "location": "punta-gorda"
+    }
+  },
+  {
+    "params": {
+      "location": "providence"
+    }
+  },
+  {
+    "params": {
+      "location": "providence"
+    }
+  },
+  {
+    "params": {
+      "location": "prospect-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "progress-village"
+    }
+  },
+  {
+    "params": {
+      "location": "progreso"
+    }
+  },
+  {
+    "params": {
+      "location": "princeton"
+    }
+  },
+  {
+    "params": {
+      "location": "powell"
+    }
+  },
+  {
+    "params": {
+      "location": "portland"
+    }
+  },
+  {
+    "params": {
+      "location": "port-salerno"
+    }
+  },
+  {
+    "params": {
+      "location": "port-royal"
+    }
+  },
+  {
+    "params": {
+      "location": "port-labelle"
+    }
+  },
+  {
+    "params": {
+      "location": "pompano-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "poinciana"
+    }
+  },
+  {
+    "params": {
+      "location": "plymouth"
+    }
+  },
+  {
+    "params": {
+      "location": "plantation"
+    }
+  },
+  {
+    "params": {
+      "location": "plantation"
+    }
+  },
+  {
+    "params": {
+      "location": "plantation"
+    }
+  },
+  {
+    "params": {
+      "location": "plains"
+    }
+  },
+  {
+    "params": {
+      "location": "plainfield"
+    }
+  },
+  {
+    "params": {
+      "location": "pittsburg"
+    }
+  },
+  {
+    "params": {
+      "location": "pinewood"
+    }
+  },
+  {
+    "params": {
+      "location": "pinewood"
+    }
+  },
+  {
+    "params": {
+      "location": "pineville"
+    }
+  },
+  {
+    "params": {
+      "location": "pinellas-park"
+    }
+  },
+  {
+    "params": {
+      "location": "pinehurst"
+    }
+  },
+  {
+    "params": {
+      "location": "pinecrest"
+    }
+  },
+  {
+    "params": {
+      "location": "pinecrest"
+    }
+  },
+  {
+    "params": {
+      "location": "pinecrest"
+    }
+  },
+  {
+    "params": {
+      "location": "pinecrest"
+    }
+  },
+  {
+    "params": {
+      "location": "pine-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "pine-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "pine-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "pine-castle"
+    }
+  },
+  {
+    "params": {
+      "location": "pine-bluff"
+    }
+  },
+  {
+    "params": {
+      "location": "pine-bluff"
+    }
+  },
+  {
+    "params": {
+      "location": "pierce"
+    }
+  },
+  {
+    "params": {
+      "location": "pierce"
+    }
+  },
+  {
+    "params": {
+      "location": "piedmont"
+    }
+  },
+  {
+    "params": {
+      "location": "phillips"
+    }
+  },
+  {
+    "params": {
+      "location": "peters"
+    }
+  },
+  {
+    "params": {
+      "location": "peru"
+    }
+  },
+  {
+    "params": {
+      "location": "perry"
+    }
+  },
+  {
+    "params": {
+      "location": "perkins"
+    }
+  },
+  {
+    "params": {
+      "location": "pensacola"
+    }
+  },
+  {
+    "params": {
+      "location": "pembroke-pines"
+    }
+  },
+  {
+    "params": {
+      "location": "pembroke-park"
+    }
+  },
+  {
+    "params": {
+      "location": "pembroke"
+    }
+  },
+  {
+    "params": {
+      "location": "pelican-bay"
+    }
+  },
+  {
+    "params": {
+      "location": "pebble-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "pasco"
+    }
+  },
+  {
+    "params": {
+      "location": "pasadena-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "parkland"
+    }
+  },
+  {
+    "params": {
+      "location": "parkland"
+    }
+  },
+  {
+    "params": {
+      "location": "park-forest"
+    }
+  },
+  {
+    "params": {
+      "location": "park-city"
+    }
+  },
+  {
+    "params": {
+      "location": "paradise"
+    }
+  },
+  {
+    "params": {
+      "location": "paradise"
+    }
+  },
+  {
+    "params": {
+      "location": "panama-city-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "panama-city"
+    }
+  },
+  {
+    "params": {
+      "location": "palmetto-estates"
+    }
+  },
+  {
+    "params": {
+      "location": "palmetto-bay"
+    }
+  },
+  {
+    "params": {
+      "location": "palmetto"
+    }
+  },
+  {
+    "params": {
+      "location": "palmdale"
+    }
+  },
+  {
+    "params": {
+      "location": "palm-view"
+    }
+  },
+  {
+    "params": {
+      "location": "palm-valley"
+    }
+  },
+  {
+    "params": {
+      "location": "palm-springs-north"
+    }
+  },
+  {
+    "params": {
+      "location": "palm-city"
+    }
+  },
+  {
+    "params": {
+      "location": "palm-beach-gardens"
+    }
+  },
+  {
+    "params": {
+      "location": "palm-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "palm-bay"
+    }
+  },
+  {
+    "params": {
+      "location": "palm-bay"
+    }
+  },
+  {
+    "params": {
+      "location": "palatka"
+    }
+  },
+  {
+    "params": {
+      "location": "pahokee"
+    }
+  },
+  {
+    "params": {
+      "location": "pace"
+    }
+  },
+  {
+    "params": {
+      "location": "oxford"
+    }
+  },
+  {
+    "params": {
+      "location": "oviedo"
+    }
+  },
+  {
+    "params": {
+      "location": "overton"
+    }
+  },
+  {
+    "params": {
+      "location": "otter-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "osprey"
+    }
+  },
+  {
+    "params": {
+      "location": "osceola"
+    }
+  },
+  {
+    "params": {
+      "location": "osceola"
+    }
+  },
+  {
+    "params": {
+      "location": "ormond-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "orlovista"
+    }
+  },
+  {
+    "params": {
+      "location": "orlando"
+    }
+  },
+  {
+    "params": {
+      "location": "orange-park"
+    }
+  },
+  {
+    "params": {
+      "location": "orange-lake"
+    }
+  },
+  {
+    "params": {
+      "location": "orange-city"
+    }
+  },
+  {
+    "params": {
+      "location": "orange"
+    }
+  },
+  {
+    "params": {
+      "location": "olympia-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "olive"
+    }
+  },
+  {
+    "params": {
+      "location": "oldsmar"
+    }
+  },
+  {
+    "params": {
+      "location": "okeechobee"
+    }
+  },
+  {
+    "params": {
+      "location": "ojus"
+    }
+  },
+  {
+    "params": {
+      "location": "odessa"
+    }
+  },
+  {
+    "params": {
+      "location": "ocoee"
+    }
+  },
+  {
+    "params": {
+      "location": "ocean-city"
+    }
+  },
+  {
+    "params": {
+      "location": "ocala"
+    }
+  },
+  {
+    "params": {
+      "location": "oakridge"
+    }
+  },
+  {
+    "params": {
+      "location": "oakleaf-plantation"
+    }
+  },
+  {
+    "params": {
+      "location": "oakland-park"
+    }
+  },
+  {
+    "params": {
+      "location": "oakland-park"
+    }
+  },
+  {
+    "params": {
+      "location": "oakland-park"
+    }
+  },
+  {
+    "params": {
+      "location": "oak-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "oak-park"
+    }
+  },
+  {
+    "params": {
+      "location": "oak-park"
+    }
+  },
+  {
+    "params": {
+      "location": "oak-mont"
+    }
+  },
+  {
+    "params": {
+      "location": "oak-harbor"
+    }
+  },
+  {
+    "params": {
+      "location": "oak-forest"
+    }
+  },
+  {
+    "params": {
+      "location": "ohara"
+    }
+  },
+  {
+    "params": {
+      "location": "obrien"
+    }
+  },
+  {
+    "params": {
+      "location": "norwood"
+    }
+  },
+  {
+    "params": {
+      "location": "norwalk"
+    }
+  },
+  {
+    "params": {
+      "location": "northdale"
+    }
+  },
+  {
+    "params": {
+      "location": "north-weeki-wachee"
+    }
+  },
+  {
+    "params": {
+      "location": "north-sarasota"
+    }
+  },
+  {
+    "params": {
+      "location": "north-palm-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "north-miami"
+    }
+  },
+  {
+    "params": {
+      "location": "north-fort-myers"
+    }
+  },
+  {
+    "params": {
+      "location": "north-bay-village"
+    }
+  },
+  {
+    "params": {
+      "location": "normandy"
+    }
+  },
+  {
+    "params": {
+      "location": "norman"
+    }
+  },
+  {
+    "params": {
+      "location": "niles"
+    }
+  },
+  {
+    "params": {
+      "location": "niceville"
+    }
+  },
+  {
+    "params": {
+      "location": "newport"
+    }
+  },
+  {
+    "params": {
+      "location": "newport"
+    }
+  },
+  {
+    "params": {
+      "location": "newcastle"
+    }
+  },
+  {
+    "params": {
+      "location": "newberry"
+    }
+  },
+  {
+    "params": {
+      "location": "new-river"
+    }
+  },
+  {
+    "params": {
+      "location": "new-port-richey-east"
+    }
+  },
+  {
+    "params": {
+      "location": "new-port-richey"
+    }
+  },
+  {
+    "params": {
+      "location": "neptune-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "navarre"
+    }
+  },
+  {
+    "params": {
+      "location": "nash"
+    }
+  },
+  {
+    "params": {
+      "location": "naranja"
+    }
+  },
+  {
+    "params": {
+      "location": "naples-park"
+    }
+  },
+  {
+    "params": {
+      "location": "naples-manor"
+    }
+  },
+  {
+    "params": {
+      "location": "naples"
+    }
+  },
+  {
+    "params": {
+      "location": "myrtle-grove"
+    }
+  },
+  {
+    "params": {
+      "location": "muscogee"
+    }
+  },
+  {
+    "params": {
+      "location": "murray"
+    }
+  },
+  {
+    "params": {
+      "location": "mount-pleasant"
+    }
+  },
+  {
+    "params": {
+      "location": "mount-pleasant"
+    }
+  },
+  {
+    "params": {
+      "location": "mount-olive"
+    }
+  },
+  {
+    "params": {
+      "location": "mount-dora"
+    }
+  },
+  {
+    "params": {
+      "location": "moultrie"
+    }
+  },
+  {
+    "params": {
+      "location": "moss-bluff"
+    }
+  },
+  {
+    "params": {
+      "location": "morgantown"
+    }
+  },
+  {
+    "params": {
+      "location": "montgomery"
+    }
+  },
+  {
+    "params": {
+      "location": "montclair"
+    }
+  },
+  {
+    "params": {
+      "location": "montague"
+    }
+  },
+  {
+    "params": {
+      "location": "monroe"
+    }
+  },
+  {
+    "params": {
+      "location": "miramar-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "miramar"
+    }
+  },
+  {
+    "params": {
+      "location": "mira-mar"
+    }
+  },
+  {
+    "params": {
+      "location": "minneola"
+    }
+  },
+  {
+    "params": {
+      "location": "minneola"
+    }
+  },
+  {
+    "params": {
+      "location": "mims"
+    }
+  },
+  {
+    "params": {
+      "location": "milton"
+    }
+  },
+  {
+    "params": {
+      "location": "mills"
+    }
+  },
+  {
+    "params": {
+      "location": "miller"
+    }
+  },
+  {
+    "params": {
+      "location": "miles-city"
+    }
+  },
+  {
+    "params": {
+      "location": "midway"
+    }
+  },
+  {
+    "params": {
+      "location": "midway"
+    }
+  },
+  {
+    "params": {
+      "location": "midway"
+    }
+  },
+  {
+    "params": {
+      "location": "midway"
+    }
+  },
+  {
+    "params": {
+      "location": "midway"
+    }
+  },
+  {
+    "params": {
+      "location": "middletown"
+    }
+  },
+  {
+    "params": {
+      "location": "middleburg"
+    }
+  },
+  {
+    "params": {
+      "location": "micco"
+    }
+  },
+  {
+    "params": {
+      "location": "miami-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "miami-shores"
+    }
+  },
+  {
+    "params": {
+      "location": "miami-gardens"
+    }
+  },
+  {
+    "params": {
+      "location": "miami-gardens"
+    }
+  },
+  {
+    "params": {
+      "location": "miami"
+    }
+  },
+  {
+    "params": {
+      "location": "merritt-island"
+    }
+  },
+  {
+    "params": {
+      "location": "merrimac"
+    }
+  },
+  {
+    "params": {
+      "location": "mercer"
+    }
+  },
+  {
+    "params": {
+      "location": "memphis"
+    }
+  },
+  {
+    "params": {
+      "location": "melrose-park"
+    }
+  },
+  {
+    "params": {
+      "location": "melrose"
+    }
+  },
+  {
+    "params": {
+      "location": "melbourne"
+    }
+  },
+  {
+    "params": {
+      "location": "medulla"
+    }
+  },
+  {
+    "params": {
+      "location": "meadow-woods"
+    }
+  },
+  {
+    "params": {
+      "location": "mcpherson"
+    }
+  },
+  {
+    "params": {
+      "location": "mcgregor"
+    }
+  },
+  {
+    "params": {
+      "location": "mcdonald"
+    }
+  },
+  {
+    "params": {
+      "location": "mason"
+    }
+  },
+  {
+    "params": {
+      "location": "mascotte"
+    }
+  },
+  {
+    "params": {
+      "location": "martin"
+    }
+  },
+  {
+    "params": {
+      "location": "martin"
+    }
+  },
+  {
+    "params": {
+      "location": "marquette"
+    }
+  },
+  {
+    "params": {
+      "location": "marion-oaks"
+    }
+  },
+  {
+    "params": {
+      "location": "marion"
+    }
+  },
+  {
+    "params": {
+      "location": "marianna"
+    }
+  },
+  {
+    "params": {
+      "location": "margate"
+    }
+  },
+  {
+    "params": {
+      "location": "margaretta"
+    }
+  },
+  {
+    "params": {
+      "location": "marcy"
+    }
+  },
+  {
+    "params": {
+      "location": "marco-island"
+    }
+  },
+  {
+    "params": {
+      "location": "marathon"
+    }
+  },
+  {
+    "params": {
+      "location": "maplewood"
+    }
+  },
+  {
+    "params": {
+      "location": "manhattan-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "manhattan"
+    }
+  },
+  {
+    "params": {
+      "location": "manhattan"
+    }
+  },
+  {
+    "params": {
+      "location": "mango"
+    }
+  },
+  {
+    "params": {
+      "location": "manatee"
+    }
+  },
+  {
+    "params": {
+      "location": "maitland"
+    }
+  },
+  {
+    "params": {
+      "location": "madison-park"
+    }
+  },
+  {
+    "params": {
+      "location": "madison"
+    }
+  },
+  {
+    "params": {
+      "location": "macon"
+    }
+  },
+  {
+    "params": {
+      "location": "macclenny"
+    }
+  },
+  {
+    "params": {
+      "location": "lyons"
+    }
+  },
+  {
+    "params": {
+      "location": "lynwood"
+    }
+  },
+  {
+    "params": {
+      "location": "lynn"
+    }
+  },
+  {
+    "params": {
+      "location": "lynchburg"
+    }
+  },
+  {
+    "params": {
+      "location": "lutz"
+    }
+  },
+  {
+    "params": {
+      "location": "lumberton"
+    }
+  },
+  {
+    "params": {
+      "location": "louisa"
+    }
+  },
+  {
+    "params": {
+      "location": "longwood"
+    }
+  },
+  {
+    "params": {
+      "location": "longwood"
+    }
+  },
+  {
+    "params": {
+      "location": "longboat-key"
+    }
+  },
+  {
+    "params": {
+      "location": "lockhart"
+    }
+  },
+  {
+    "params": {
+      "location": "livingston"
+    }
+  },
+  {
+    "params": {
+      "location": "live-oak"
+    }
+  },
+  {
+    "params": {
+      "location": "live-oak"
+    }
+  },
+  {
+    "params": {
+      "location": "live-oak"
+    }
+  },
+  {
+    "params": {
+      "location": "little-river"
+    }
+  },
+  {
+    "params": {
+      "location": "lincoln-park"
+    }
+  },
+  {
+    "params": {
+      "location": "lincoln-park"
+    }
+  },
+  {
+    "params": {
+      "location": "lincoln"
+    }
+  },
+  {
+    "params": {
+      "location": "lighthouse-point"
+    }
+  },
+  {
+    "params": {
+      "location": "lighthouse-point"
+    }
+  },
+  {
+    "params": {
+      "location": "liberty"
+    }
+  },
+  {
+    "params": {
+      "location": "liberty"
+    }
+  },
+  {
+    "params": {
+      "location": "lewis"
+    }
+  },
+  {
+    "params": {
+      "location": "leonia"
+    }
+  },
+  {
+    "params": {
+      "location": "leon"
+    }
+  },
+  {
+    "params": {
+      "location": "leisure-city"
+    }
+  },
+  {
+    "params": {
+      "location": "leesburg"
+    }
+  },
+  {
+    "params": {
+      "location": "lecanto"
+    }
+  },
+  {
+    "params": {
+      "location": "lealman"
+    }
+  },
+  {
+    "params": {
+      "location": "lawrence"
+    }
+  },
+  {
+    "params": {
+      "location": "laurel-hill"
+    }
+  },
+  {
+    "params": {
+      "location": "laurel"
+    }
+  },
+  {
+    "params": {
+      "location": "lauderhill"
+    }
+  },
+  {
+    "params": {
+      "location": "lauderdale-lakes"
+    }
+  },
+  {
+    "params": {
+      "location": "largo"
+    }
+  },
+  {
+    "params": {
+      "location": "larchmont"
+    }
+  },
+  {
+    "params": {
+      "location": "lantana"
+    }
+  },
+  {
+    "params": {
+      "location": "lansing"
+    }
+  },
+  {
+    "params": {
+      "location": "lancaster"
+    }
+  },
+  {
+    "params": {
+      "location": "lamb"
+    }
+  },
+  {
+    "params": {
+      "location": "lakewood-park"
+    }
+  },
+  {
+    "params": {
+      "location": "lakewood"
+    }
+  },
+  {
+    "params": {
+      "location": "lakewood"
+    }
+  },
+  {
+    "params": {
+      "location": "lakeville"
+    }
+  },
+  {
+    "params": {
+      "location": "lakeside"
+    }
+  },
+  {
+    "params": {
+      "location": "lakeside"
+    }
+  },
+  {
+    "params": {
+      "location": "lakeside"
+    }
+  },
+  {
+    "params": {
+      "location": "lakeland-highlands"
+    }
+  },
+  {
+    "params": {
+      "location": "lakeland"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-worth"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-wales"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-placid"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-magdalene"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-lorraine"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-geneva"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-forest"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-forest"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-forest"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-charles"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-butler"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-butler"
+    }
+  },
+  {
+    "params": {
+      "location": "lake-alfred"
+    }
+  },
+  {
+    "params": {
+      "location": "laguna-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "lago-vista"
+    }
+  },
+  {
+    "params": {
+      "location": "lafayette"
+    }
+  },
+  {
+    "params": {
+      "location": "lackawanna"
+    }
+  },
+  {
+    "params": {
+      "location": "la-grange"
+    }
+  },
+  {
+    "params": {
+      "location": "la-crosse"
+    }
+  },
+  {
+    "params": {
+      "location": "kissimmee"
+    }
+  },
+  {
+    "params": {
+      "location": "kirkwood"
+    }
+  },
+  {
+    "params": {
+      "location": "kingsland"
+    }
+  },
+  {
+    "params": {
+      "location": "kingsford"
+    }
+  },
+  {
+    "params": {
+      "location": "kings-point"
+    }
+  },
+  {
+    "params": {
+      "location": "kings"
+    }
+  },
+  {
+    "params": {
+      "location": "kilgore"
+    }
+  },
+  {
+    "params": {
+      "location": "keystone-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "keystone"
+    }
+  },
+  {
+    "params": {
+      "location": "key-largo"
+    }
+  },
+  {
+    "params": {
+      "location": "key-biscayne"
+    }
+  },
+  {
+    "params": {
+      "location": "kern"
+    }
+  },
+  {
+    "params": {
+      "location": "kent"
+    }
+  },
+  {
+    "params": {
+      "location": "kenneth-city"
+    }
+  },
+  {
+    "params": {
+      "location": "kendall-west"
+    }
+  },
+  {
+    "params": {
+      "location": "kendall"
+    }
+  },
+  {
+    "params": {
+      "location": "kathleen"
+    }
+  },
+  {
+    "params": {
+      "location": "kalamazoo"
+    }
+  },
+  {
+    "params": {
+      "location": "jupiter"
+    }
+  },
+  {
+    "params": {
+      "location": "jones"
+    }
+  },
+  {
+    "params": {
+      "location": "johnstown"
+    }
+  },
+  {
+    "params": {
+      "location": "johnson"
+    }
+  },
+  {
+    "params": {
+      "location": "jessamine"
+    }
+  },
+  {
+    "params": {
+      "location": "jerome"
+    }
+  },
+  {
+    "params": {
+      "location": "jensen-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "jenkins"
+    }
+  },
+  {
+    "params": {
+      "location": "jasmine-estates"
+    }
+  },
+  {
+    "params": {
+      "location": "jamestown"
+    }
+  },
+  {
+    "params": {
+      "location": "jacksonville-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "jacksonville"
+    }
+  },
+  {
+    "params": {
+      "location": "ives-estates"
+    }
+  },
+  {
+    "params": {
+      "location": "islamorada"
+    }
+  },
+  {
+    "params": {
+      "location": "iowa-city"
+    }
+  },
+  {
+    "params": {
+      "location": "iona"
+    }
+  },
+  {
+    "params": {
+      "location": "inwood"
+    }
+  },
+  {
+    "params": {
+      "location": "inwood"
+    }
+  },
+  {
+    "params": {
+      "location": "inverness-highlands-south"
+    }
+  },
+  {
+    "params": {
+      "location": "inverness"
+    }
+  },
+  {
+    "params": {
+      "location": "indiantown"
+    }
+  },
+  {
+    "params": {
+      "location": "indianola"
+    }
+  },
+  {
+    "params": {
+      "location": "indian-river-estates"
+    }
+  },
+  {
+    "params": {
+      "location": "indian-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "indian-harbour-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "immokalee"
+    }
+  },
+  {
+    "params": {
+      "location": "ida"
+    }
+  },
+  {
+    "params": {
+      "location": "hyde-park"
+    }
+  },
+  {
+    "params": {
+      "location": "hyde-park"
+    }
+  },
+  {
+    "params": {
+      "location": "hyde-park"
+    }
+  },
+  {
+    "params": {
+      "location": "hyde-park"
+    }
+  },
+  {
+    "params": {
+      "location": "hutchinson-island-south"
+    }
+  },
+  {
+    "params": {
+      "location": "huntington-woods"
+    }
+  },
+  {
+    "params": {
+      "location": "huntington"
+    }
+  },
+  {
+    "params": {
+      "location": "huntington"
+    }
+  },
+  {
+    "params": {
+      "location": "hunters-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "hull"
+    }
+  },
+  {
+    "params": {
+      "location": "hudson"
+    }
+  },
+  {
+    "params": {
+      "location": "hudson"
+    }
+  },
+  {
+    "params": {
+      "location": "howard"
+    }
+  },
+  {
+    "params": {
+      "location": "houston"
+    }
+  },
+  {
+    "params": {
+      "location": "horizon-west"
+    }
+  },
+  {
+    "params": {
+      "location": "hopewell"
+    }
+  },
+  {
+    "params": {
+      "location": "hopewell"
+    }
+  },
+  {
+    "params": {
+      "location": "hooper"
+    }
+  },
+  {
+    "params": {
+      "location": "homosassa-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "homestead"
+    }
+  },
+  {
+    "params": {
+      "location": "homestead"
+    }
+  },
+  {
+    "params": {
+      "location": "homeland-park"
+    }
+  },
+  {
+    "params": {
+      "location": "holt"
+    }
+  },
+  {
+    "params": {
+      "location": "hollywood"
+    }
+  },
+  {
+    "params": {
+      "location": "holly-hill"
+    }
+  },
+  {
+    "params": {
+      "location": "hollister"
+    }
+  },
+  {
+    "params": {
+      "location": "holland"
+    }
+  },
+  {
+    "params": {
+      "location": "holiday"
+    }
+  },
+  {
+    "params": {
+      "location": "holden"
+    }
+  },
+  {
+    "params": {
+      "location": "hobe-sound"
+    }
+  },
+  {
+    "params": {
+      "location": "hillside"
+    }
+  },
+  {
+    "params": {
+      "location": "hillcrest-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "hillcrest"
+    }
+  },
+  {
+    "params": {
+      "location": "hill-crest"
+    }
+  },
+  {
+    "params": {
+      "location": "highlands"
+    }
+  },
+  {
+    "params": {
+      "location": "highland-park"
+    }
+  },
+  {
+    "params": {
+      "location": "highland-park"
+    }
+  },
+  {
+    "params": {
+      "location": "highland-park"
+    }
+  },
+  {
+    "params": {
+      "location": "highland-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "highland-city"
+    }
+  },
+  {
+    "params": {
+      "location": "highland"
+    }
+  },
+  {
+    "params": {
+      "location": "high-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "hidden-valley"
+    }
+  },
+  {
+    "params": {
+      "location": "hialeah-gardens"
+    }
+  },
+  {
+    "params": {
+      "location": "hialeah"
+    }
+  },
+  {
+    "params": {
+      "location": "hernando"
+    }
+  },
+  {
+    "params": {
+      "location": "henrietta"
+    }
+  },
+  {
+    "params": {
+      "location": "henderson"
+    }
+  },
+  {
+    "params": {
+      "location": "heathrow"
+    }
+  },
+  {
+    "params": {
+      "location": "hazard"
+    }
+  },
+  {
+    "params": {
+      "location": "harvard"
+    }
+  },
+  {
+    "params": {
+      "location": "harrison"
+    }
+  },
+  {
+    "params": {
+      "location": "harrisburg"
+    }
+  },
+  {
+    "params": {
+      "location": "harris"
+    }
+  },
+  {
+    "params": {
+      "location": "harper"
+    }
+  },
+  {
+    "params": {
+      "location": "harney"
+    }
+  },
+  {
+    "params": {
+      "location": "happy-valley"
+    }
+  },
+  {
+    "params": {
+      "location": "hanson"
+    }
+  },
+  {
+    "params": {
+      "location": "hamburg"
+    }
+  },
+  {
+    "params": {
+      "location": "half-moon"
+    }
+  },
+  {
+    "params": {
+      "location": "gulfport"
+    }
+  },
+  {
+    "params": {
+      "location": "gulf-gate-estates"
+    }
+  },
+  {
+    "params": {
+      "location": "gulf-breeze"
+    }
+  },
+  {
+    "params": {
+      "location": "guilford"
+    }
+  },
+  {
+    "params": {
+      "location": "groveland"
+    }
+  },
+  {
+    "params": {
+      "location": "grove-city"
+    }
+  },
+  {
+    "params": {
+      "location": "greenwood"
+    }
+  },
+  {
+    "params": {
+      "location": "greentree"
+    }
+  },
+  {
+    "params": {
+      "location": "greenfield"
+    }
+  },
+  {
+    "params": {
+      "location": "greenfield"
+    }
+  },
+  {
+    "params": {
+      "location": "greenfield"
+    }
+  },
+  {
+    "params": {
+      "location": "green-cove-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "green-acres"
+    }
+  },
+  {
+    "params": {
+      "location": "grant"
+    }
+  },
+  {
+    "params": {
+      "location": "grand-island"
+    }
+  },
+  {
+    "params": {
+      "location": "graham"
+    }
+  },
+  {
+    "params": {
+      "location": "grady"
+    }
+  },
+  {
+    "params": {
+      "location": "goulds"
+    }
+  },
+  {
+    "params": {
+      "location": "gordon"
+    }
+  },
+  {
+    "params": {
+      "location": "gordon"
+    }
+  },
+  {
+    "params": {
+      "location": "gonzalez"
+    }
+  },
+  {
+    "params": {
+      "location": "gonzales"
+    }
+  },
+  {
+    "params": {
+      "location": "goldenrod"
+    }
+  },
+  {
+    "params": {
+      "location": "golden-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "golden-glades"
+    }
+  },
+  {
+    "params": {
+      "location": "golden-gate"
+    }
+  },
+  {
+    "params": {
+      "location": "golden-gate"
+    }
+  },
+  {
+    "params": {
+      "location": "glenvar-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "glen-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "gladeview"
+    }
+  },
+  {
+    "params": {
+      "location": "gillette"
+    }
+  },
+  {
+    "params": {
+      "location": "gilchrist"
+    }
+  },
+  {
+    "params": {
+      "location": "gilchrist"
+    }
+  },
+  {
+    "params": {
+      "location": "gilberts"
+    }
+  },
+  {
+    "params": {
+      "location": "gifford"
+    }
+  },
+  {
+    "params": {
+      "location": "gibsonton"
+    }
+  },
+  {
+    "params": {
+      "location": "gibson"
+    }
+  },
+  {
+    "params": {
+      "location": "georgetown"
+    }
+  },
+  {
+    "params": {
+      "location": "genoa"
+    }
+  },
+  {
+    "params": {
+      "location": "gateway"
+    }
+  },
+  {
+    "params": {
+      "location": "gateway"
+    }
+  },
+  {
+    "params": {
+      "location": "gary"
+    }
+  },
+  {
+    "params": {
+      "location": "garden-grove"
+    }
+  },
+  {
+    "params": {
+      "location": "garden-grove"
+    }
+  },
+  {
+    "params": {
+      "location": "garden-city"
+    }
+  },
+  {
+    "params": {
+      "location": "garden-city"
+    }
+  },
+  {
+    "params": {
+      "location": "garden-city"
+    }
+  },
+  {
+    "params": {
+      "location": "garden-acres"
+    }
+  },
+  {
+    "params": {
+      "location": "galloway"
+    }
+  },
+  {
+    "params": {
+      "location": "gainesville"
+    }
+  },
+  {
+    "params": {
+      "location": "fussels-corner"
+    }
+  },
+  {
+    "params": {
+      "location": "fulton"
+    }
+  },
+  {
+    "params": {
+      "location": "fulton"
+    }
+  },
+  {
+    "params": {
+      "location": "fuller-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "fruitville"
+    }
+  },
+  {
+    "params": {
+      "location": "fruitland-park"
+    }
+  },
+  {
+    "params": {
+      "location": "fruitland"
+    }
+  },
+  {
+    "params": {
+      "location": "fruita"
+    }
+  },
+  {
+    "params": {
+      "location": "fruit-cove"
+    }
+  },
+  {
+    "params": {
+      "location": "franklintown"
+    }
+  },
+  {
+    "params": {
+      "location": "franklin-park"
+    }
+  },
+  {
+    "params": {
+      "location": "four-corners"
+    }
+  },
+  {
+    "params": {
+      "location": "four-corners"
+    }
+  },
+  {
+    "params": {
+      "location": "fountainebleau"
+    }
+  },
+  {
+    "params": {
+      "location": "fountain"
+    }
+  },
+  {
+    "params": {
+      "location": "fortuna"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-pierce-south"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-pierce-north"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-pierce"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-myers-shores"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-myers-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-myers"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-meade"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-lauderdale"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-drum"
+    }
+  },
+  {
+    "params": {
+      "location": "forest-grove"
+    }
+  },
+  {
+    "params": {
+      "location": "foley"
+    }
+  },
+  {
+    "params": {
+      "location": "florida-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "florida-city"
+    }
+  },
+  {
+    "params": {
+      "location": "flores"
+    }
+  },
+  {
+    "params": {
+      "location": "florence"
+    }
+  },
+  {
+    "params": {
+      "location": "florence"
+    }
+  },
+  {
+    "params": {
+      "location": "floral-city"
+    }
+  },
+  {
+    "params": {
+      "location": "fleming-island"
+    }
+  },
+  {
+    "params": {
+      "location": "flagler-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "fishers"
+    }
+  },
+  {
+    "params": {
+      "location": "fish-hawk"
+    }
+  },
+  {
+    "params": {
+      "location": "festus"
+    }
+  },
+  {
+    "params": {
+      "location": "ferry-pass"
+    }
+  },
+  {
+    "params": {
+      "location": "fernandina-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "fern-park"
+    }
+  },
+  {
+    "params": {
+      "location": "fellsmere"
+    }
+  },
+  {
+    "params": {
+      "location": "farmington"
+    }
+  },
+  {
+    "params": {
+      "location": "falmouth"
+    }
+  },
+  {
+    "params": {
+      "location": "fairview-shores"
+    }
+  },
+  {
+    "params": {
+      "location": "fairview"
+    }
+  },
+  {
+    "params": {
+      "location": "fairview"
+    }
+  },
+  {
+    "params": {
+      "location": "fairview"
+    }
+  },
+  {
+    "params": {
+      "location": "fairlawn"
+    }
+  },
+  {
+    "params": {
+      "location": "fairfield"
+    }
+  },
+  {
+    "params": {
+      "location": "fairfield"
+    }
+  },
+  {
+    "params": {
+      "location": "fairburn"
+    }
+  },
+  {
+    "params": {
+      "location": "eustis"
+    }
+  },
+  {
+    "params": {
+      "location": "estero"
+    }
+  },
+  {
+    "params": {
+      "location": "espanola"
+    }
+  },
+  {
+    "params": {
+      "location": "erie"
+    }
+  },
+  {
+    "params": {
+      "location": "ensley"
+    }
+  },
+  {
+    "params": {
+      "location": "englewood"
+    }
+  },
+  {
+    "params": {
+      "location": "englewood"
+    }
+  },
+  {
+    "params": {
+      "location": "englewood"
+    }
+  },
+  {
+    "params": {
+      "location": "emporia"
+    }
+  },
+  {
+    "params": {
+      "location": "ellsworth"
+    }
+  },
+  {
+    "params": {
+      "location": "ellis"
+    }
+  },
+  {
+    "params": {
+      "location": "elizabeth"
+    }
+  },
+  {
+    "params": {
+      "location": "elfers"
+    }
+  },
+  {
+    "params": {
+      "location": "eldorado"
+    }
+  },
+  {
+    "params": {
+      "location": "eldorado"
+    }
+  },
+  {
+    "params": {
+      "location": "edwards"
+    }
+  },
+  {
+    "params": {
+      "location": "edison"
+    }
+  },
+  {
+    "params": {
+      "location": "edgewater-park"
+    }
+  },
+  {
+    "params": {
+      "location": "edgewater"
+    }
+  },
+  {
+    "params": {
+      "location": "edgewater"
+    }
+  },
+  {
+    "params": {
+      "location": "edgewater"
+    }
+  },
+  {
+    "params": {
+      "location": "edgar"
+    }
+  },
+  {
+    "params": {
+      "location": "eden"
+    }
+  },
+  {
+    "params": {
+      "location": "eddy"
+    }
+  },
+  {
+    "params": {
+      "location": "eastwood"
+    }
+  },
+  {
+    "params": {
+      "location": "eastwood"
+    }
+  },
+  {
+    "params": {
+      "location": "east-milton"
+    }
+  },
+  {
+    "params": {
+      "location": "east-lake"
+    }
+  },
+  {
+    "params": {
+      "location": "east-lake"
+    }
+  },
+  {
+    "params": {
+      "location": "east-bay"
+    }
+  },
+  {
+    "params": {
+      "location": "early"
+    }
+  },
+  {
+    "params": {
+      "location": "duval"
+    }
+  },
+  {
+    "params": {
+      "location": "durant"
+    }
+  },
+  {
+    "params": {
+      "location": "durango"
+    }
+  },
+  {
+    "params": {
+      "location": "dunn"
+    }
+  },
+  {
+    "params": {
+      "location": "dunedin"
+    }
+  },
+  {
+    "params": {
+      "location": "dumont"
+    }
+  },
+  {
+    "params": {
+      "location": "dukes"
+    }
+  },
+  {
+    "params": {
+      "location": "druid-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "drew"
+    }
+  },
+  {
+    "params": {
+      "location": "dorchester"
+    }
+  },
+  {
+    "params": {
+      "location": "doral"
+    }
+  },
+  {
+    "params": {
+      "location": "doctor-phillips"
+    }
+  },
+  {
+    "params": {
+      "location": "dixon"
+    }
+  },
+  {
+    "params": {
+      "location": "dixie"
+    }
+  },
+  {
+    "params": {
+      "location": "dixie"
+    }
+  },
+  {
+    "params": {
+      "location": "dickey"
+    }
+  },
+  {
+    "params": {
+      "location": "destin"
+    }
+  },
+  {
+    "params": {
+      "location": "denver"
+    }
+  },
+  {
+    "params": {
+      "location": "deltona"
+    }
+  },
+  {
+    "params": {
+      "location": "delta"
+    }
+  },
+  {
+    "params": {
+      "location": "dellwood"
+    }
+  },
+  {
+    "params": {
+      "location": "dellwood"
+    }
+  },
+  {
+    "params": {
+      "location": "deland"
+    }
+  },
+  {
+    "params": {
+      "location": "del-rio"
+    }
+  },
+  {
+    "params": {
+      "location": "defuniak-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "deerfield-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "deer-park"
+    }
+  },
+  {
+    "params": {
+      "location": "deer-park"
+    }
+  },
+  {
+    "params": {
+      "location": "debary"
+    }
+  },
+  {
+    "params": {
+      "location": "daytona-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "davis"
+    }
+  },
+  {
+    "params": {
+      "location": "davie"
+    }
+  },
+  {
+    "params": {
+      "location": "darlington"
+    }
+  },
+  {
+    "params": {
+      "location": "darby"
+    }
+  },
+  {
+    "params": {
+      "location": "danville"
+    }
+  },
+  {
+    "params": {
+      "location": "dallas"
+    }
+  },
+  {
+    "params": {
+      "location": "dade-city"
+    }
+  },
+  {
+    "params": {
+      "location": "cypress-lake"
+    }
+  },
+  {
+    "params": {
+      "location": "cypress-gardens"
+    }
+  },
+  {
+    "params": {
+      "location": "cunningham"
+    }
+  },
+  {
+    "params": {
+      "location": "cross-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "cross-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "crestview"
+    }
+  },
+  {
+    "params": {
+      "location": "crest-view"
+    }
+  },
+  {
+    "params": {
+      "location": "crescent-city"
+    }
+  },
+  {
+    "params": {
+      "location": "crawford"
+    }
+  },
+  {
+    "params": {
+      "location": "covington"
+    }
+  },
+  {
+    "params": {
+      "location": "coventry"
+    }
+  },
+  {
+    "params": {
+      "location": "courtland"
+    }
+  },
+  {
+    "params": {
+      "location": "country-walk"
+    }
+  },
+  {
+    "params": {
+      "location": "coral-terrace"
+    }
+  },
+  {
+    "params": {
+      "location": "coral-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "cook"
+    }
+  },
+  {
+    "params": {
+      "location": "conway"
+    }
+  },
+  {
+    "params": {
+      "location": "connersville"
+    }
+  },
+  {
+    "params": {
+      "location": "connersville"
+    }
+  },
+  {
+    "params": {
+      "location": "concord"
+    }
+  },
+  {
+    "params": {
+      "location": "concord"
+    }
+  },
+  {
+    "params": {
+      "location": "combee-settlement"
+    }
+  },
+  {
+    "params": {
+      "location": "columbia"
+    }
+  },
+  {
+    "params": {
+      "location": "colonial-heights"
+    }
+  },
+  {
+    "params": {
+      "location": "collins"
+    }
+  },
+  {
+    "params": {
+      "location": "college-park"
+    }
+  },
+  {
+    "params": {
+      "location": "college-park"
+    }
+  },
+  {
+    "params": {
+      "location": "college-park"
+    }
+  },
+  {
+    "params": {
+      "location": "cole"
+    }
+  },
+  {
+    "params": {
+      "location": "coconut-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "cocoa-west"
+    }
+  },
+  {
+    "params": {
+      "location": "cocoa-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "cocoa"
+    }
+  },
+  {
+    "params": {
+      "location": "clinch"
+    }
+  },
+  {
+    "params": {
+      "location": "clifton-park"
+    }
+  },
+  {
+    "params": {
+      "location": "clewiston"
+    }
+  },
+  {
+    "params": {
+      "location": "clermont"
+    }
+  },
+  {
+    "params": {
+      "location": "clearwater"
+    }
+  },
+  {
+    "params": {
+      "location": "clayton"
+    }
+  },
+  {
+    "params": {
+      "location": "clark"
+    }
+  },
+  {
+    "params": {
+      "location": "clark"
+    }
+  },
+  {
+    "params": {
+      "location": "citrus-park"
+    }
+  },
+  {
+    "params": {
+      "location": "citrus-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "chula-vista"
+    }
+  },
+  {
+    "params": {
+      "location": "choctaw"
+    }
+  },
+  {
+    "params": {
+      "location": "cheval"
+    }
+  },
+  {
+    "params": {
+      "location": "chester"
+    }
+  },
+  {
+    "params": {
+      "location": "cherry-hill"
+    }
+  },
+  {
+    "params": {
+      "location": "chatham"
+    }
+  },
+  {
+    "params": {
+      "location": "chapel-hill"
+    }
+  },
+  {
+    "params": {
+      "location": "cerrogordo"
+    }
+  },
+  {
+    "params": {
+      "location": "centralia"
+    }
+  },
+  {
+    "params": {
+      "location": "central-city"
+    }
+  },
+  {
+    "params": {
+      "location": "celebration"
+    }
+  },
+  {
+    "params": {
+      "location": "cedar-hills"
+    }
+  },
+  {
+    "params": {
+      "location": "cedar-grove"
+    }
+  },
+  {
+    "params": {
+      "location": "cedar-grove"
+    }
+  },
+  {
+    "params": {
+      "location": "cedar-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "catawba"
+    }
+  },
+  {
+    "params": {
+      "location": "cassia"
+    }
+  },
+  {
+    "params": {
+      "location": "casselberry"
+    }
+  },
+  {
+    "params": {
+      "location": "casey"
+    }
+  },
+  {
+    "params": {
+      "location": "carver"
+    }
+  },
+  {
+    "params": {
+      "location": "carrollwood"
+    }
+  },
+  {
+    "params": {
+      "location": "carrollton"
+    }
+  },
+  {
+    "params": {
+      "location": "carlton"
+    }
+  },
+  {
+    "params": {
+      "location": "cape-coral"
+    }
+  },
+  {
+    "params": {
+      "location": "cape-canaveral"
+    }
+  },
+  {
+    "params": {
+      "location": "canterbury"
+    }
+  },
+  {
+    "params": {
+      "location": "candler"
+    }
+  },
+  {
+    "params": {
+      "location": "campton"
+    }
+  },
+  {
+    "params": {
+      "location": "callaway"
+    }
+  },
+  {
+    "params": {
+      "location": "cairo"
+    }
+  },
+  {
+    "params": {
+      "location": "cairo"
+    }
+  },
+  {
+    "params": {
+      "location": "cadillac"
+    }
+  },
+  {
+    "params": {
+      "location": "buffalo"
+    }
+  },
+  {
+    "params": {
+      "location": "buenaventura-lakes"
+    }
+  },
+  {
+    "params": {
+      "location": "buena-vista"
+    }
+  },
+  {
+    "params": {
+      "location": "buena-vista"
+    }
+  },
+  {
+    "params": {
+      "location": "buena-vista"
+    }
+  },
+  {
+    "params": {
+      "location": "buchanan"
+    }
+  },
+  {
+    "params": {
+      "location": "bruce"
+    }
+  },
+  {
+    "params": {
+      "location": "brownville"
+    }
+  },
+  {
+    "params": {
+      "location": "brownsville"
+    }
+  },
+  {
+    "params": {
+      "location": "brownsville"
+    }
+  },
+  {
+    "params": {
+      "location": "brown"
+    }
+  },
+  {
+    "params": {
+      "location": "brooksville"
+    }
+  },
+  {
+    "params": {
+      "location": "brookside"
+    }
+  },
+  {
+    "params": {
+      "location": "brookside"
+    }
+  },
+  {
+    "params": {
+      "location": "brookshire"
+    }
+  },
+  {
+    "params": {
+      "location": "brooklyn"
+    }
+  },
+  {
+    "params": {
+      "location": "broadway"
+    }
+  },
+  {
+    "params": {
+      "location": "broadwater"
+    }
+  },
+  {
+    "params": {
+      "location": "broadview-park"
+    }
+  },
+  {
+    "params": {
+      "location": "brighton"
+    }
+  },
+  {
+    "params": {
+      "location": "bridgeport"
+    }
+  },
+  {
+    "params": {
+      "location": "bridgeport"
+    }
+  },
+  {
+    "params": {
+      "location": "brent"
+    }
+  },
+  {
+    "params": {
+      "location": "brandon"
+    }
+  },
+  {
+    "params": {
+      "location": "bradford"
+    }
+  },
+  {
+    "params": {
+      "location": "bradenton"
+    }
+  },
+  {
+    "params": {
+      "location": "boynton-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "boyd"
+    }
+  },
+  {
+    "params": {
+      "location": "bonita"
+    }
+  },
+  {
+    "params": {
+      "location": "bon-air"
+    }
+  },
+  {
+    "params": {
+      "location": "boaz"
+    }
+  },
+  {
+    "params": {
+      "location": "boardman"
+    }
+  },
+  {
+    "params": {
+      "location": "bluefield"
+    }
+  },
+  {
+    "params": {
+      "location": "blue-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "bloomingdale"
+    }
+  },
+  {
+    "params": {
+      "location": "bland"
+    }
+  },
+  {
+    "params": {
+      "location": "bithlo"
+    }
+  },
+  {
+    "params": {
+      "location": "bingham"
+    }
+  },
+  {
+    "params": {
+      "location": "big-pine-key"
+    }
+  },
+  {
+    "params": {
+      "location": "bethlehem"
+    }
+  },
+  {
+    "params": {
+      "location": "bethel"
+    }
+  },
+  {
+    "params": {
+      "location": "bethany"
+    }
+  },
+  {
+    "params": {
+      "location": "berkeley"
+    }
+  },
+  {
+    "params": {
+      "location": "benson"
+    }
+  },
+  {
+    "params": {
+      "location": "belvedere-park"
+    }
+  },
+  {
+    "params": {
+      "location": "belmont"
+    }
+  },
+  {
+    "params": {
+      "location": "belmont"
+    }
+  },
+  {
+    "params": {
+      "location": "bellwood"
+    }
+  },
+  {
+    "params": {
+      "location": "bellview"
+    }
+  },
+  {
+    "params": {
+      "location": "belle-isle"
+    }
+  },
+  {
+    "params": {
+      "location": "belle-glade"
+    }
+  },
+  {
+    "params": {
+      "location": "bee-ridge"
+    }
+  },
+  {
+    "params": {
+      "location": "becker"
+    }
+  },
+  {
+    "params": {
+      "location": "beaver-creek"
+    }
+  },
+  {
+    "params": {
+      "location": "beacon-square"
+    }
+  },
+  {
+    "params": {
+      "location": "beach-park"
+    }
+  },
+  {
+    "params": {
+      "location": "baywood"
+    }
+  },
+  {
+    "params": {
+      "location": "baywood"
+    }
+  },
+  {
+    "params": {
+      "location": "bayshore-gardens"
+    }
+  },
+  {
+    "params": {
+      "location": "bayshore"
+    }
+  },
+  {
+    "params": {
+      "location": "bayshore"
+    }
+  },
+  {
+    "params": {
+      "location": "bayonet-point"
+    }
+  },
+  {
+    "params": {
+      "location": "bay-point"
+    }
+  },
+  {
+    "params": {
+      "location": "bay-harbor-islands"
+    }
+  },
+  {
+    "params": {
+      "location": "bay-city"
+    }
+  },
+  {
+    "params": {
+      "location": "baxter"
+    }
+  },
+  {
+    "params": {
+      "location": "bates"
+    }
+  },
+  {
+    "params": {
+      "location": "bartow"
+    }
+  },
+  {
+    "params": {
+      "location": "barrington"
+    }
+  },
+  {
+    "params": {
+      "location": "barnhart"
+    }
+  },
+  {
+    "params": {
+      "location": "banks"
+    }
+  },
+  {
+    "params": {
+      "location": "ball"
+    }
+  },
+  {
+    "params": {
+      "location": "baker"
+    }
+  },
+  {
+    "params": {
+      "location": "baker"
+    }
+  },
+  {
+    "params": {
+      "location": "bailey"
+    }
+  },
+  {
+    "params": {
+      "location": "azalea-park"
+    }
+  },
+  {
+    "params": {
+      "location": "avon-park"
+    }
+  },
+  {
+    "params": {
+      "location": "avon-park"
+    }
+  },
+  {
+    "params": {
+      "location": "aventura"
+    }
+  },
+  {
+    "params": {
+      "location": "aurora"
+    }
+  },
+  {
+    "params": {
+      "location": "aurora"
+    }
+  },
+  {
+    "params": {
+      "location": "audubon"
+    }
+  },
+  {
+    "params": {
+      "location": "auburndale"
+    }
+  },
+  {
+    "params": {
+      "location": "auburn"
+    }
+  },
+  {
+    "params": {
+      "location": "atlantic-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "ashville"
+    }
+  },
+  {
+    "params": {
+      "location": "asbury-park"
+    }
+  },
+  {
+    "params": {
+      "location": "asbury-lake"
+    }
+  },
+  {
+    "params": {
+      "location": "armstrong"
+    }
+  },
+  {
+    "params": {
+      "location": "arlington"
+    }
+  },
+  {
+    "params": {
+      "location": "arlington"
+    }
+  },
+  {
+    "params": {
+      "location": "arlington"
+    }
+  },
+  {
+    "params": {
+      "location": "arcadia"
+    }
+  },
+  {
+    "params": {
+      "location": "apopka"
+    }
+  },
+  {
+    "params": {
+      "location": "apollo-beach"
+    }
+  },
+  {
+    "params": {
+      "location": "antioch"
+    }
+  },
+  {
+    "params": {
+      "location": "andrew"
+    }
+  },
+  {
+    "params": {
+      "location": "andover"
+    }
+  },
+  {
+    "params": {
+      "location": "amelia"
+    }
+  },
+  {
+    "params": {
+      "location": "alton"
+    }
+  },
+  {
+    "params": {
+      "location": "altamonte-springs"
+    }
+  },
+  {
+    "params": {
+      "location": "alpine"
+    }
+  },
+  {
+    "params": {
+      "location": "alliance"
+    }
+  },
+  {
+    "params": {
+      "location": "allendale"
+    }
+  },
+  {
+    "params": {
+      "location": "albion"
+    }
+  },
+  {
+    "params": {
+      "location": "alameda"
+    }
+  },
+  {
+    "params": {
+      "location": "alafaya"
+    }
+  },
+  {
+    "params": {
+      "location": "alachua"
+    }
+  },
+  {
+    "params": {
+      "location": "adams"
+    }
+  },
+  {
+    "params": {
+      "location": "aberdeen"
+    }
+  },
+  {
+    "params": {
+      "location": "houston"
+    }
+  },
+  {
+    "params": {
+      "location": "san-antonio"
+    }
+  },
+  {
+    "params": {
+      "location": "dallas"
+    }
+  },
+  {
+    "params": {
+      "location": "austin"
+    }
+  },
+  {
+    "params": {
+      "location": "fort-worth"
+    }
+  },
+  {
+    "params": {
+      "location": "el-paso"
+    }
+  },
+  {
+    "params": {
+      "location": "arlington"
+    }
+  },
+  {
+    "params": {
+      "location": "corpus-christi"
+    }
+  },
+  {
+    "params": {
+      "location": "plano"
+    }
+  },
+  {
+    "params": {
+      "location": "lubbock"
+    }
+  },
+  {
+    "params": {
+      "location": "new-york-city"
+    }
+  },
+  {
+    "params": {
+      "location": "buffalo"
+    }
+  },
+  {
+    "params": {
+      "location": "rochester"
+    }
+  },
+  {
+    "params": {
+      "location": "yonkers"
+    }
+  },
+  {
+    "params": {
+      "location": "syracuse"
+    }
+  },
+  {
+    "params": {
+      "location": "albany"
+    }
+  },
+  {
+    "params": {
+      "location": "new-rochelle"
+    }
+  },
+  {
+    "params": {
+      "location": "philadelphia"
+    }
+  },
+  {
+    "params": {
+      "location": "pittsburgh"
+    }
+  },
+  {
+    "params": {
+      "location": "allentown"
+    }
+  },
+  {
+    "params": {
+      "location": "erie"
+    }
+  },
+  {
+    "params": {
+      "location": "reading"
+    }
+  },
+  {
+    "params": {
+      "location": "columbus"
+    }
+  },
+  {
+    "params": {
+      "location": "cleveland"
+    }
+  },
+  {
+    "params": {
+      "location": "cincinnati"
+    }
+  },
+  {
+    "params": {
+      "location": "toledo"
+    }
+  },
+  {
+    "params": {
+      "location": "akron"
+    }
+  },
+  {
+    "params": {
+      "location": "dayton"
+    }
+  }
+]

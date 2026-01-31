@@ -75,7 +75,28 @@ const nextConfig = {
   // Redirects for SEO preservation
   async redirects() {
     return [
-      // Add WordPress to Next.js redirects here
+      // City redirects for common URL patterns
+      {
+        source: '/miami',
+        destination: '/fabric-stores/miami',
+        permanent: false,
+      },
+      {
+        source: '/tampa',
+        destination: '/fabric-stores/tampa',
+        permanent: false,
+      },
+      {
+        source: '/orlando',
+        destination: '/fabric-stores/orlando-fl',
+        permanent: false,
+      },
+      {
+        source: '/atlanta',
+        destination: '/fabric-stores/atlanta',
+        permanent: false,
+      },
+      // WordPress redirects
       {
         source: '/wp-admin/:path*',
         destination: '/',

@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Philadelphia",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "county": "Philadelphia County",
+    "population": 1580000,
+    "coordinates": {
+      "lat": 39.8008,
+      "lng": -79.1448
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 33,
+      "medianIncome": 85000,
+      "homeOwnershipRate": 0.5,
+      "medianHomeValue": 382500,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": false,
+      "outdoorCulture": false,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 789,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Pittsburgh",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "county": "Pittsburgh County",
+    "population": 305000,
+    "coordinates": {
+      "lat": 40.2708,
+      "lng": -76.9398
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 34,
+      "medianIncome": 80000,
+      "homeOwnershipRate": 0.55,
+      "medianHomeValue": 360000,
+      "educationLevel": "college",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo",
+        "apartment"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "fast",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "vibrant",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 849,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Allentown",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "county": "Allentown County",
+    "population": 125000,
+    "coordinates": {
+      "lat": 41.0708,
+      "lng": -78.7398
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 35,
+      "medianIncome": 70000,
+      "homeOwnershipRate": 0.6,
+      "medianHomeValue": 315000,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "low"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 879,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Erie",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "county": "Erie County",
+    "population": 97000,
+    "coordinates": {
+      "lat": 41.5075,
+      "lng": -78.15225
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 36,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.65,
+      "medianHomeValue": 292500,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "moderate"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 914,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  },
+  {
+    "name": "Reading",
+    "state": "Pennsylvania",
+    "stateCode": "PA",
+    "county": "Reading County",
+    "population": 95000,
+    "coordinates": {
+      "lat": 40.5698,
+      "lng": -78.0288
+    },
+    "timezone": "America/New_York",
+    "climateZone": {
+      "id": "humid_continental",
+      "name": "Humid Continental",
+      "description": "Hot summers and cold winters with significant seasonal variation",
+      "challenge": "Extreme temperature swings and varying humidity levels",
+      "impact": "Fabrics need versatility for heating/cooling cycles and seasonal use patterns",
+      "solutions": [
+        "All-season performance materials",
+        "Temperature-adaptive fibers",
+        "Durable synthetic blends",
+        "Multi-climate treatments"
+      ],
+      "seasonality": "high"
+    },
+    "demographics": {
+      "medianAge": 36,
+      "medianIncome": 65000,
+      "homeOwnershipRate": 0.65,
+      "medianHomeValue": 292500,
+      "educationLevel": "some_college",
+      "primaryIndustries": [
+        "Manufacturing",
+        "Service",
+        "Agriculture"
+      ]
+    },
+    "architecture": {
+      "predominantStyles": [
+        "Colonial",
+        "Victorian",
+        "Cape Cod",
+        "Modern"
+      ],
+      "constructionEra": "Mixed Era",
+      "housingTypes": [
+        "single_family",
+        "townhome",
+        "condo"
+      ],
+      "historicDistricts": false,
+      "newConstruction": "moderate"
+    },
+    "lifestyle": {
+      "pace": "moderate",
+      "primaryActivities": [
+        "Family gatherings",
+        "Home entertaining",
+        "Community events",
+        "Cultural events",
+        "Historic tours"
+      ],
+      "familyOriented": true,
+      "outdoorCulture": false,
+      "culturalScene": "moderate",
+      "entertainingStyle": "mixed"
+    },
+    "distanceFromOrlando": 853,
+    "lastUpdated": "2026-01-31T00:15:58.443Z"
+  }
+]

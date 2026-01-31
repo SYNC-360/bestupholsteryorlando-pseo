@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { ArrowRight, Check, MapPin, Palette, Sparkles, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Header } from "@/components/sections/header"
 import { SITE_CONFIG, GEOGRAPHIC_MARKETS } from "@/lib/constants"
 import { generateLocationUrl } from "@/lib/utils"
 
@@ -10,7 +9,6 @@ export default function HomePage() {
 
   return (
     <>
-      <Header />
       <main>
         {/* Hero Section */}
         <section className="relative overflow-hidden bg-gradient-to-br from-amber-50 via-white to-orange-50">

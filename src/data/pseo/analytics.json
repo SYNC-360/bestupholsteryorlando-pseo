@@ -1,0 +1,42 @@
+{
+  "total": 1045,
+  "byState": {
+    "FL": 1013,
+    "AL": 1,
+    "TN": 1,
+    "GA": 1,
+    "SC": 1,
+    "TX": 10,
+    "NY": 7,
+    "PA": 5,
+    "OH": 6
+  },
+  "byRegion": {},
+  "byDistanceFromOrlando": {
+    "under300": 1012,
+    "between300And600": 4,
+    "between600And1000": 18,
+    "over1000": 11
+  },
+  "byPopulation": {
+    "under10k": 0,
+    "between10kAnd50k": 1006,
+    "between50kAnd100k": 9,
+    "between100kAnd500k": 20,
+    "over500k": 10
+  },
+  "byClimateZone": {
+    "humid_subtropical": 751,
+    "humid_continental": 294
+  },
+  "wordPressCities": 1016,
+  "expansionCities": 29,
+  "generatedAt": "2026-01-31T00:15:58.472Z",
+  "options": {
+    "radius": 1500,
+    "maxCities": 15000,
+    "outputDir": "./src/data/pseo",
+    "sitemapUrl": "https://bestupholsteryorlando.com/sitemap/sitemap.xml",
+    "verbose": false
+  }
+}
