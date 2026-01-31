@@ -107,7 +107,7 @@ export class CityDataGenerator {
   private generateArchitecture(baseData: BaseCityData): ArchitectureData {
     const citySize = getCitySize(baseData.population);
     const region = getRegion(baseData.stateCode);
-    const isHistoric = baseData.founded && baseData.founded < 1950;
+    const isHistoric = Boolean(baseData.founded && baseData.founded < 1950);
     
     return {
       predominantStyles: this.getArchitecturalStyles(region, isHistoric),

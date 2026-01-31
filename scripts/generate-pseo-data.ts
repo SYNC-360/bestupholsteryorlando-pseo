@@ -300,4 +300,5 @@ if (require.main === module) {
   });
 }
 
-export { PSEODataGenerator, CityAnalytics };
+export { PSEODataGenerator };
+export type { CityAnalytics };
