@@ -5,13 +5,18 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npm run sitemap",
+    "build": "npm run generate-pseo && next build && npm run sitemap",
+    "build:fast": "next build && npm run sitemap",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "sitemap": "next-sitemap",
     "analyze": "ANALYZE=true npm run build",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "generate-pseo": "tsx scripts/generate-pseo-data.ts",
+    "generate-pseo:dev": "tsx scripts/generate-pseo-data.ts --radius=500 --max=1000 --verbose",
+    "generate-pseo:full": "tsx scripts/generate-pseo-data.ts --radius=1500 --max=15000",
+    "preview-pseo": "tsx scripts/preview-pseo.ts"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^16.1.6",
@@ -40,6 +45,7 @@
     "eslint-config-next": "16.1.6",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.16",
+    "tsx": "^4.9.0",
     "typescript": "^5.6.0"
   },
   "engines": {

@@ -95,7 +95,7 @@ export default function FabricGuidePage() {
                   </Link>
                 </Button>
                 <Button variant="outline" size="xl" asChild>
-                  <Link href="#calculator">
+                  <Link href="/tools/yardage-calculator">
                     Use Yardage Calculator
                   </Link>
                 </Button>
